@@ -1,10 +1,14 @@
 
-import Footer from "./components/common/Footer";
+// import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
 import Banner from "./components/Home/Banner";
+import CoursesSection from "./components/Home/CoursesSection";
+import ExclusiveSolutions from "./components/Home/EclusiveSolutions";
 import PopularCourses from "./components/Home/PopularCourse";
+import SeminarSections from "./components/Home/SeminarSections";
 import Service from "./components/Home/Servise";
 import StatsSection from "./components/Home/Stats-section";
+import SuccessStories from "./components/Home/SuccessStories";
 
 export default function Home() {
   return (
@@ -14,7 +18,11 @@ export default function Home() {
     <Service/>
     <PopularCourses/>
     <StatsSection/>
-    <Footer/>
+    <SuccessStories/>
+    <ExclusiveSolutions/>
+   <CoursesSection/>
+   <SeminarSections/>
+    {/* <Footer/> */}
     </>
   );
 }
