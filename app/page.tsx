@@ -1,6 +1,8 @@
 
 // import Footer from "./components/common/Footer";
+import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
+import Admission from "./components/Home/Admission";
 import Banner from "./components/Home/Banner";
 import CoursesSection from "./components/Home/CoursesSection";
 import ExclusiveSolutions from "./components/Home/EclusiveSolutions";
@@ -9,6 +11,7 @@ import SeminarSections from "./components/Home/SeminarSections";
 import Service from "./components/Home/Servise";
 import StatsSection from "./components/Home/Stats-section";
 import SuccessStories from "./components/Home/SuccessStories";
+import TrainingLanding from "./components/Home/TrainingLanding";
 
 export default function Home() {
   return (
@@ -22,7 +25,9 @@ export default function Home() {
     <ExclusiveSolutions/>
    <CoursesSection/>
    <SeminarSections/>
-    {/* <Footer/> */}
+   <TrainingLanding/>
+   <Admission/>
+    <Footer/>
     </>
   );
 }

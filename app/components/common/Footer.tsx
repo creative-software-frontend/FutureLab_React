@@ -1,114 +1,106 @@
 import Image from "next/image"
+import Link from "next/link"
+import { Facebook, Linkedin, Youtube, Instagram } from "lucide-react"
 import img1 from "@/assests/footer/2.png"
-import img2 from "@/assests/footer/2.png"
-import img3 from "@/assests/footer/2.png"
-import img4 from "@/assests/footer/2.png"
+import img2 from "@/assests/footer/rocket.png"
 
 export default function Footer() {
-  const paymentMethods = [
-    {
-      name: "bKash",
-      numbers: ["01990779766", "01309014614"],
-      logo: img1,
-    },
-    {
-      name: "Nagad",
-      numbers: ["01309014614"],
-      logo: img2,
-    },
-    {
-      name: "Rocket",
-      numbers: ["01309014614"],
-      logo: img3,
-    },
-    {
-      name: "SSLCOMMERZ",
-      logo: img4,
-    },
-  ]
-
   return (
-    <footer className="w-full bg-white">
-      {/* Payment Methods Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h3 className="text-xl font-semibold text-center mb-8">Our Payment Merchant</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {paymentMethods.map((method, index) => (
-            <div key={index} className="flex flex-col items-center p-4 rounded-lg shadow-sm border border-gray-100">
-              <Image
-                src={method.logo || "/placeholder.svg"}
-                alt={`${method.name} payment method`}
-                className="h-12 object-contain mb-4"
-                width={100}
-                height={48}
-              />
-              {method.numbers && (
-                <div className="text-center">
-                  {method.numbers.map((number, idx) => (
-                    <div key={idx} className="text-sm text-gray-600">
-                      {number}
-                    </div>
-                  ))}
-                </div>
-              )}
-              {method.name === "SSLCOMMERZ" && <div className="text-sm font-medium text-gray-600">SSLCOMMERZ</div>}
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      {/* Payment Merchants Section */}
+      <div className="mb-12">
+        <h2 className="text-center text-xl font-semibold mb-8">Our Payment Merchant</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          {/* bKash */}
+          <div className="p-6 rounded-lg shadow-sm border flex flex-col items-center">
+          <Image src={img1}
+            
+            
+            alt="bKash" width={120} height={50} className="mb-3" />
+            <div className="text-center text-sm">
+              <p>01990779766</p>
+              <p>01309014614</p>
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
 
-      {/* Bottom Footer */}
-      <div className="border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            {/* Logo */}
-            <div className="flex items-center gap-2">
-              <Image
-                src="/placeholder.svg?height=40&width=40"
-                alt="Creative IT Institute"
-                className="h-10 w-10"
-                width={40}
-                height={40}
-              />
-              <div className="text-red-600 font-bold">
-                CREATIVE
-                <br />
-                IT INSTITUTE
-              </div>
-            </div>
+          {/* Nagad */}
+          <div className="p-6 rounded-lg shadow-sm border flex flex-col items-center">
+            <Image src={img1}
+            
+            alt="Nagad" width={120} height={50} className="mb-3" />
+            <p className="text-sm">01309014614</p>
+          </div>
 
-            {/* Copyright */}
-            <div className="text-sm text-gray-600 text-center">
-              Copyright © 2024 Creative IT Institute. All right reserved |
-              <a href="#" className="text-red-600 ml-1">
-                Sitemap
-              </a>
-              <div className="text-sm text-gray-500">e-TIN: 570007703094, TL: TRAD/DSCC/228155/2019</div>
-            </div>
+          {/* Rocket */}
+          <div className="p-6 rounded-lg shadow-sm border flex flex-col items-center">
+            <Image src={img2}
+            
+           alt="Rocket" width={120} height={50} className="mb-3" />
+            <p className="text-sm">01309014614143</p>
+          </div>
 
-            {/* Social Links */}
-            <div className="flex gap-4">
-              {["facebook", "linkedin", "youtube", "instagram"].map((social) => (
-                <a
-                  key={social}
-                  href={`#${social}`}
-                  className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50"
-                >
-                  <span className="sr-only">{social}</span>
-                  <Image
-                    src={`/placeholder.svg?height=20&width=20`}
-                    alt={`${social} icon`}
-                    width={20}
-                    height={20}
-                    className="h-4 w-4"
-                  />
-                </a>
-              ))}
-            </div>
+          {/* SSLCOMMERZ */}
+          <div className="p-6 rounded-lg shadow-sm border flex flex-col items-center">
+           
+              <Image src={img2}
+              alt="SSLCOMMERZ"
+              width={120}
+              height={50}
+              className="mb-3"
+            />
+            <p className="text-sm">SSLCOMMERZ</p>
           </div>
         </div>
       </div>
-    </footer>
+
+      {/* Footer Bottom */}
+      <div className="border-t pt-6">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          {/* Logo */}
+          <div>
+            <Image src="/placeholder.svg?height=40&width=150" alt="Creativeb  Software
+            
+            
+            " width={150} height={40} />
+          </div>
+
+          {/* Copyright */}
+          <div className="text-sm text-gray-600 text-center">
+            Copyright © 2025
+            
+            Creative Software.
+            
+            
+             All rights reserved |
+            <Link href="#" className="text-red-500 hover:underline ml-1">
+              Sitemap
+            </Link>
+            <br />
+            <span className="text-gray-500">e-TIN: 570007703094, TL: TRAD/DSCCC/22B155/2019</span>
+          </div>
+
+          {/* Social Links */}
+          <div className="flex gap-4">
+            <Link href="#" className="text-gray-600 hover:text-gray-900">
+              <Facebook className="w-5 h-5" />
+              <span className="sr-only">Facebook</span>
+            </Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">
+              <Linkedin className="w-5 h-5" />
+              <span className="sr-only">LinkedIn</span>
+            </Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">
+              <Youtube className="w-5 h-5" />
+              <span className="sr-only">YouTube</span>
+            </Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">
+              <Instagram className="w-5 h-5" />
+              <span className="sr-only">Instagram</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 

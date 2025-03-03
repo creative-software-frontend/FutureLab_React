@@ -5,7 +5,7 @@ export default function SeminarSections() {
   return (
     <section className="bg-[#fff8f8]">
       {/* Free Seminars Section */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-16 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="max-w-xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Join Our Free Seminars</h2>
