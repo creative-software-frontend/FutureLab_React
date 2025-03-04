@@ -1,7 +1,10 @@
 import Image, { type StaticImageData } from "next/image"
 import { Play } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import img1 from "@/assests/story/maxresdefault.jpg"
+import img1 from "@/assests/story/4.jpeg"
+import img2 from "@/assests/story/3.jpeg"
+import img3 from "@/assests/story/5.jpeg"
+import img4 from "@/assests/story/6.jpeg"
 
 type SuccessStory = {
   id: number
@@ -30,7 +33,7 @@ const successStories: SuccessStory[] = [
     name: "Golam Rabiul Chowdhury",
     field: "Interior Design",
     income: "$450",
-    image: "/placeholder.svg?height=400&width=300",
+    image: img2,
     videoUrl: "#",
     description: "Interior Design Success",
     bgColor: "from-purple-500/20 to-purple-700/40",
@@ -40,7 +43,7 @@ const successStories: SuccessStory[] = [
     name: "Uttam Saha",
     field: "3D Animation",
     income: "$1200",
-    image: "/placeholder.svg?height=400&width=300",
+    image: img3,
     videoUrl: "#",
     description: "3D Animation Industry Success",
     bgColor: "from-green-500/20 to-green-700/40",
@@ -50,7 +53,7 @@ const successStories: SuccessStory[] = [
     name: "Rakib Siddique",
     field: "MERN Stack Developer",
     income: "$1800",
-    image: "/placeholder.svg?height=400&width=300",
+    image: img4,
     videoUrl: "#",
     description: "Remote Job as MERN Developer",
     bgColor: "from-orange-500/20 to-orange-700/40",
@@ -73,12 +76,24 @@ export default function SuccessStories() {
           {successStories.map((story) => (
             <div
               key={story.id}
-              className={`relative overflow-hidden rounded-xl shadow-lg group transition-all duration-300 hover:shadow-xl h-[300px]`}
+              className="relative overflow-hidden rounded-xl shadow-lg group transition-all duration-300 hover:shadow-xl h-[300px]"
             >
-              <div className={`absolute inset-0 bg-gradient-to-r ${story.bgColor} z-0`}></div>
+              {/* Background Image */}
+              <div className="absolute inset-0 w-full h-full z-0">
+                <Image
+                  src={story.image || "/placeholder.svg"}
+                  alt={story.name}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+
+              {/* Gradient Overlay */}
+              <div className={`absolute inset-0 bg-gradient-to-r ${story.bgColor} z-10 opacity-90`}></div>
 
               {/* Institute Logo */}
-              <div className="absolute top-3 left-3 z-10">
+              <div className="absolute top-3 left-3 z-20">
                 <div className="bg-red-600 rounded-full p-1 w-8 h-8 flex items-center justify-center">
                   <span className="text-white text-xs font-bold">CIT</span>
                 </div>
@@ -92,7 +107,7 @@ export default function SuccessStories() {
               </div>
 
               {/* Content */}
-              <div className="relative z-10 h-full flex flex-col justify-end p-5">
+              <div className="relative z-20 h-full flex flex-col justify-end p-5">
                 <div className="flex flex-col items-start justify-between h-full">
                   <div className="mb-4">
                     <h3 className="text-xl font-bold text-white">{story.name}</h3>
@@ -102,17 +117,6 @@ export default function SuccessStories() {
                     <p className="text-white/80 text-sm">Monthly Income</p>
                     <p className="text-yellow-400 text-3xl font-bold">{story.income}</p>
                   </div>
-                </div>
-
-                {/* Student Image - Positioned to the right */}
-                <div className="absolute bottom-0 right-0 h-full w-1/2 flex items-end">
-                  <Image
-                    src={story.image || "/placeholder.svg"}
-                    alt={story.name}
-                    width={200}
-                    height={300}
-                    className="object-contain object-bottom h-full w-full"
-                  />
                 </div>
               </div>
             </div>

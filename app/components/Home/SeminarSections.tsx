@@ -1,5 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import img1 from "@/assests/story/8.jpeg"
+import img2 from "@/assests/story/9.jpeg"
 
 export default function SeminarSections() {
   return (
@@ -34,7 +36,7 @@ export default function SeminarSections() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src={img1}
                 alt="Students in a seminar"
                 width={600}
                 height={400}
@@ -46,7 +48,7 @@ export default function SeminarSections() {
       </div>
 
       {/* Project Based Classes Section */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-10 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           <div className="relative order-2 lg:order-1">
             <div className="absolute -left-4 -bottom-4 w-24 h-24 bg-red-50">
@@ -65,7 +67,7 @@ export default function SeminarSections() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src={img2}
                 alt="Project based classroom"
                 width={600}
                 height={400}

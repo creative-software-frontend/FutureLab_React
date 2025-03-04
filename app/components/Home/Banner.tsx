@@ -8,7 +8,7 @@ export default function Banner() {
      
 
       {/* Hero Section */}
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto px-12 py-12 ">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
           <div className="flex-1 space-y-6">
@@ -42,7 +42,7 @@ export default function Banner() {
             </div>
 
             <div className="flex items-center space-x-3">
-              <Image src="/placeholder.svg" alt="ISO Certified" width={60} height={60} className="w-12 h-12" />
+              {/* <Image src="/placeholder.svg" alt="ISO Certified" width={60} height={60} className="w-12 h-12" /> */}
               <p className="text-sm text-gray-600">
                 One of the best ISO certified IT Training Institutes in Bangladesh
               </p>
@@ -53,16 +53,16 @@ export default function Banner() {
           <div className="flex-1">
             <div className="relative bg-[#001233] rounded-2xl p-8 overflow-hidden">
               <div className="absolute top-4 left-4">
-                <Image src="/placeholder.svg" alt="Best IT Institute" width={120} height={40} className="h-8 w-auto" />
+                {/* <Image src="/placeholder.svg" alt="Best IT Institute" width={120} height={40} className="h-8 w-auto" /> */}
               </div>
               <div className="absolute top-4 right-4">
-                <Image
+                {/* <Image
                   src="/placeholder.svg"
                   alt="Creative Business Group"
                   width={120}
                   height={40}
                   className="h-8 w-auto"
-                />
+                /> */}
               </div>
               <div className="pt-16 text-center">
                 <div className="text-[#ff3333] text-7xl font-bold">
@@ -80,10 +80,10 @@ export default function Banner() {
       </main>
 
       {/* Side Elements */}
-      <div className="fixed left-0 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 -rotate-90 transform origin-left">
+      <div className="fixed left-4 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 -rotate-90 transform origin-left">
         GET DISCOUNT
       </div>
-      <div className="fixed right-0 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 rotate-90 transform origin-right">
+      <div className="fixed right-4 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 rotate-90 transform origin-right">
         Join Free Seminar
       </div>
     </div>

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import img1 from "@/assests/story/9.jpeg"
 
 export default function TrainingLanding() {
   return (
@@ -37,7 +38,7 @@ export default function TrainingLanding() {
           </div>
           <div>
             <Image
-              src=""
+              src={img1}
               alt="IT training classroom with students and instructor"
               width={500}
               height={350}

@@ -1,4 +1,3 @@
-
 // import Footer from "./components/common/Footer";
 import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
@@ -16,18 +15,18 @@ import TrainingLanding from "./components/Home/TrainingLanding";
 export default function Home() {
   return (
     <>
-     <Header/>
-    <Banner/>
-    <Service/>
-    <PopularCourses/>
-    <StatsSection/>
-    <SuccessStories/>
-    <ExclusiveSolutions/>
-   <CoursesSection/>
-   <SeminarSections/>
-   <TrainingLanding/>
-   <Admission/>
-    <Footer/>
+      <Header />
+      <Banner />
+      <Service />
+      <PopularCourses />
+      <StatsSection />
+      <SuccessStories />
+      <ExclusiveSolutions />
+      <CoursesSection />
+      <SeminarSections />
+      <TrainingLanding />
+      <Admission />
+      <Footer />
     </>
   );
 }

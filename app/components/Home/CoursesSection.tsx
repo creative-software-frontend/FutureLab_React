@@ -1,6 +1,10 @@
 import { Star, StarHalf } from "lucide-react"
 import Image from "next/image"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
+import img1 from "@/assests/story/2.png"
+import img2 from "@/assests/story/3.jpeg"
+import img3 from "@/assests/story/5.jpeg"
+import img4 from "@/assests/story/6.jpeg"
 
 type Course = {
   id: number
@@ -23,7 +27,7 @@ const courses: { [key: string]: Course[] } = {
       reviews: 14400,
       students: 18000,
       fee: 50000,
-      image: "/placeholder.svg?height=400&width=600",
+      image: img1,
     },
     {
       id: 2,
@@ -33,7 +37,7 @@ const courses: { [key: string]: Course[] } = {
       reviews: 4160,
       students: 5200,
       fee: 50000,
-      image: "/placeholder.svg?height=400&width=600",
+      image: img2,
     },
     {
       id: 3,
@@ -43,7 +47,7 @@ const courses: { [key: string]: Course[] } = {
       reviews: 2800,
       students: 3500,
       fee: 50000,
-      image: "/placeholder.svg?height=400&width=600",
+      image: img3,
     },
   ],
   "Web & Software": [
@@ -55,7 +59,7 @@ const courses: { [key: string]: Course[] } = {
       reviews: 680,
       students: 850,
       fee: 95000,
-      image: "/placeholder.svg?height=400&width=600",
+      image: img4,
     },
     {
       id: 5,
@@ -65,7 +69,7 @@ const courses: { [key: string]: Course[] } = {
       reviews: 1220,
       students: 2400,
       fee: 50000,
-      image: "/placeholder.svg?height=400&width=600",
+      image: img1,
     },
     {
       id: 6,
@@ -75,7 +79,7 @@ const courses: { [key: string]: Course[] } = {
       reviews: 256,
       students: 320,
       fee: 50000,
-      image: "/placeholder.svg?height=400&width=600",
+      image: img1,
     },
   ],
 }
