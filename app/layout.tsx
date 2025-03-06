@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import ScrollToTopButton from "./components/Home/ScrollButton";
+import ScrollToTopButton from "../components/Home/ScrollButton";
+import Header from "@/components/common/Header";
+import Footer from "@/components/common/Footer";
+import Admission from "@/components/Home/Admission";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,8 +31,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header/>
         {children}
         <ScrollToTopButton />
+        <Admission/>
+        <Footer/>
       </body>
     </html>
   );

@@ -1,10 +1,10 @@
 import { Book,  Play } from "lucide-react"
-import Image from "next/image"
+// import Image from "next/image"
 // import Link from "next/link"
 
 export default function Banner() {
   return (
-    <div className="min-h-screen bg-[#fff5f5]">
+    <div className=" bg-[#fff5f5]">
      
 
       {/* Hero Section */}
@@ -80,10 +80,10 @@ export default function Banner() {
       </main>
 
       {/* Side Elements */}
-      <div className="fixed left-4 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 -rotate-90 transform origin-left">
+      <div className="fixed left-4 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 -rotate-90 transform origin-left z-50">
         GET DISCOUNT
       </div>
-      <div className="fixed right-4 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 rotate-90 transform origin-right">
+      <div className="fixed right-4 top-1/2 -translate-y-1/2 bg-[#ff3333] text-white py-2 px-4 rotate-90 transform origin-right z-50">
         Join Free Seminar
       </div>
     </div>

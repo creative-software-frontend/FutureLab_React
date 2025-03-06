@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Facebook, Linkedin, Youtube, Instagram } from "lucide-react"
 import logo from "@/assests/logo/logo.png"
-import img2 from "@/assests/footer/rocket.png"
+// import img2 from "@/assests/footer/rocket.png"
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
    
 
       {/* Footer Bottom */}
-      <div className="border-t pt-6">
+      <div className=" pt-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo */}
           <div>

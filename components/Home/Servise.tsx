@@ -57,7 +57,7 @@ export default function Service() {
   ]
 
   return (
-    <div className="relative w-full bg-pink-50/50 py-12">
+    <div className="relative w-full bg-pink-50/50 py-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
           <button
