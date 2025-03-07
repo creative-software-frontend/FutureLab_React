@@ -54,7 +54,7 @@ const Header = () => {
             </Link>
           </nav>
 
-          <Link href="/CoursesSection" className="bg-red-500 text-white px-6 py-2 rounded-lg flex items-center space-x-2">
+          <Link href="/courses" className="bg-red-500 text-white px-6 py-2 rounded-lg flex items-center space-x-2">
             <span>Browse Course</span>
             <ChevronDown className="h-4 w-4" />
           </Link>
