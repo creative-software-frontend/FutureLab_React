@@ -66,7 +66,7 @@ export default function ContactSection() {
               <Card className="overflow-hidden">
                 <div className="grid lg:grid-cols-2 gap-6">
                   {/* Map Section */}
-                  <div className="relative h-[300px] lg:h-full min-h-[300px]">
+                  <div className="relative h-[250px] lg:h-full min-h-[200px]">
                     <iframe
                       src={location.mapSrc}
                       className="absolute inset-0 w-full h-full border-0"
