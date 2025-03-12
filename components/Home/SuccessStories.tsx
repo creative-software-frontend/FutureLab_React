@@ -94,14 +94,14 @@ export default function SuccessStories() {
 
               {/* Institute Logo */}
               <div className="absolute top-3 left-3 z-20">
-                <div className="bg-red-600 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                <div className="bg-primary  rounded-full p-1 w-8 h-8 flex items-center justify-center">
                   <span className="text-white text-xs font-bold">CIT</span>
                 </div>
               </div>
 
               {/* Play Button */}
               <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 z-20">
-                <button className="bg-red-600 hover:bg-red-700 transition-colors rounded-full p-3 text-white">
+                <button className="bg-primary  hover:bg-red-700 transition-colors rounded-full p-3 text-white">
                   <Play className="h-6 w-6 fill-current" />
                 </button>
               </div>
@@ -124,7 +124,7 @@ export default function SuccessStories() {
         </div>
 
         <div className="text-center mt-10">
-          <Button variant="destructive" size="lg" className="px-8">
+          <Button variant="destructive" size="lg" className="px-8 bg-primary  ">
             See More
           </Button>
         </div>

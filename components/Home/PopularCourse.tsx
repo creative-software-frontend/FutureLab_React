@@ -65,7 +65,7 @@ export default function PopularCourses() {
               <button
                 key={tab}
                 className={`px-4 py-2 font-medium text-sm whitespace-nowrap ${
-                  activeTab === tab ? "text-red-600 border-b-2 border-red-600" : "text-gray-700 hover:text-gray-900"
+                  activeTab === tab ? "text-primary   border-b-2 border-primary  " : "text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >
@@ -117,7 +117,7 @@ export default function PopularCourses() {
                 </div>
 
                 <div className="p-5">
-                  <div className="text-orange-500 text-sm font-medium mb-2">All Course</div>
+                  <div className="text-secondary text-sm font-medium mb-2">All Course</div>
                   <h3 className="text-lg font-bold text-gray-900 mb-2">{course.title}</h3>
 
                   <div className="flex items-center mb-4">
@@ -132,7 +132,7 @@ export default function PopularCourses() {
 
                   <div className="flex items-center justify-between">
                     <div className="text-gray-900 font-medium">Course Fee {course.fee}</div>
-                    <button className="text-sm text-orange-600 border border-orange-600 rounded px-3 py-1 hover:bg-orange-50">
+                    <button className="text-sm text-white border border-orange-600 rounded px-3 py-1 bg-secondary hover:bg-white hover:text-black">
                       Click for discount
                     </button>
                   </div>

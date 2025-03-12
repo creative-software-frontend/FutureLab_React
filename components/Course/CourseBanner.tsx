@@ -194,7 +194,7 @@ export default function CourseBanner() {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
-        <h1 className="text-4xl font-bold text-red-600 mb-4">Courses</h1>
+        <h1 className="text-4xl font-bold text-primary  mb-4">Courses</h1>
         <p className="text-gray-600 mb-12 max-w-4xl">
           We offer all the trendy courses that are in demand in the global market. In addition, you are getting lab
           facilities where high-end computers with the required configuration are ready to facilitate your learning.
@@ -250,7 +250,7 @@ export default function CourseBanner() {
                       <div className="text-sm">
                         Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                       </div>
-                      <button className="text-red-600 text-sm font-medium hover:text-red-700">
+                      <button className="text-primary  text-sm font-medium hover:text-red-700">
                         Click for discount
                       </button>
                     </CardFooter>

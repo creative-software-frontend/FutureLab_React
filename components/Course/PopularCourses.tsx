@@ -137,7 +137,7 @@ export default function PopularCourses() {
                   <div className="text-sm">
                     Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                   </div>
-                  <Button variant="ghost" className="text-red-500 hover:text-red-600 hover:bg-red-50 p-0">
+                  <Button className="text-red-700 hover:text-primary  hover:bg-red-400 p-0">
                     Click for discount
                   </Button>
                 </CardFooter>

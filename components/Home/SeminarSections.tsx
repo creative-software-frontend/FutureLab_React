@@ -1,9 +1,18 @@
+"use client"
+
+import { useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import SeminarModal from "./SeminarModal"
 import img1 from "@/assests/story/8.jpeg"
 import img2 from "@/assests/story/9.jpeg"
 
 export default function SeminarSections() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const openModal = () => setIsModalOpen(true)
+  const closeModal = () => setIsModalOpen(false)
+
   return (
     <section className="bg-[#fff8f8]">
       {/* Free Seminars Section */}
@@ -15,7 +24,10 @@ export default function SeminarSections() {
               Need guidelines to choose a suitable course? Join our free seminars to consult with our experts, they will
               guide you to pick the course that matches your interest and discuss the career prospects.
             </p>
-            <Button variant="destructive" size="lg" className="rounded-md">
+            <Button
+              onClick={openModal}
+              className="text-lg text-primary   border border-secondary rounded px-3 py-3 bg-secondary hover:bg-white"
+            >
               Free Seminar Schedule
             </Button>
           </div>
@@ -36,7 +48,7 @@ export default function SeminarSections() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src={img1}
+                src={img1 || "/placeholder.svg?height=400&width=600"}
                 alt="Students in a seminar"
                 width={600}
                 height={400}
@@ -67,7 +79,7 @@ export default function SeminarSections() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src={img2}
+                src={img2 || "/placeholder.svg?height=400&width=600"}
                 alt="Project based classroom"
                 width={600}
                 height={400}
@@ -87,6 +99,9 @@ export default function SeminarSections() {
           </div>
         </div>
       </div>
+
+      {/* Modal */}
+      <SeminarModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   )
 }

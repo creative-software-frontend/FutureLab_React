@@ -19,49 +19,49 @@ import {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {/* Initiative 1 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">1000000+</div>
+            <div className="text-primary  font-bold text-xl">1000000+</div>
             <div className="text-sm">Students received career counseling</div>
           </div>
   
           {/* Initiative 2 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">6000+</div>
+            <div className="text-primary  font-bold text-xl">6000+</div>
             <div className="text-sm">Women got IT training on full free scholarship</div>
           </div>
   
           {/* Initiative 3 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">5000+</div>
+            <div className="text-primary  font-bold text-xl">5000+</div>
             <div className="text-sm">Students got online internship facility</div>
           </div>
   
           {/* Initiative 4 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">200+</div>
+            <div className="text-primary  font-bold text-xl">200+</div>
             <div className="text-sm">Physically challenged people received IT training</div>
           </div>
   
           {/* Initiative 5 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">12000+</div>
+            <div className="text-primary  font-bold text-xl">12000+</div>
             <div className="text-sm">Financially deprived got IT scholarship</div>
           </div>
   
           {/* Initiative 6 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">500+</div>
+            <div className="text-primary  font-bold text-xl">500+</div>
             <div className="text-sm">Polytechnics are attached for training</div>
           </div>
   
           {/* Initiative 7 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">6000+</div>
+            <div className="text-primary  font-bold text-xl">6000+</div>
             <div className="text-sm">Senior citizens got scholarship in IT</div>
           </div>
   
           {/* Initiative 8 */}
           <div className="bg-gray-50 p-4 rounded-lg">
-            <div className="text-red-600 font-bold text-xl">45+</div>
+            <div className="text-primary  font-bold text-xl">45+</div>
             <div className="text-sm">Timely courses for professional training</div>
           </div>
         </div>

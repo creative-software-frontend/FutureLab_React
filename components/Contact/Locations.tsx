@@ -48,7 +48,7 @@ export default function ContactSection() {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
-        <h1 className="text-4xl font-bold text-red-600 mb-4">Contact Us</h1>
+        <h1 className="text-4xl font-bold text-primary  mb-4">Contact Us</h1>
         <p className="text-gray-600 mb-12">
           You are welcome to visit our office for any information related to course and training. You can also reach us
           through the below number or messenger.

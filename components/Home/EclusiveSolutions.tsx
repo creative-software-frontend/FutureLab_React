@@ -52,7 +52,7 @@ export default function ExclusiveSolutions() {
         </div>
 
         <div className="text-center mt-10">
-          <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-md font-medium transition-colors">
+          <button className="bg-primary   hover:bg-red-700 text-white px-8 py-3 rounded-md font-medium transition-colors">
             Our Facility
           </button>
         </div>

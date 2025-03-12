@@ -7,7 +7,7 @@ export default function TrainingLanding() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Hero Section */}
       <div className="mb-12">
-        <p className="text-red-500 font-medium mb-2">Successfully 15 Year&apos;s</p>
+        <p className="text-primary   font-medium mb-2">Successfully 15 Year&apos;s</p>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -24,13 +24,13 @@ export default function TrainingLanding() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="#"
-                className="bg-red-500 text-white px-8 py-3 rounded-md font-medium hover:bg-red-600 transition-colors"
+                className="bg-primary   text-white px-8 py-3 rounded-md font-medium hover:bg-secondary transition-colors"
               >
                 Browse Course
               </Link>
               <Link
                 href="#"
-                className="bg-red-500 text-white px-8 py-3 rounded-md font-medium hover:bg-red-600 transition-colors"
+                className="bg-primary   text-white px-8 py-3 rounded-md font-medium hover:bg-secondary transition-colors"
               >
                 Learn More
               </Link>
@@ -51,31 +51,30 @@ export default function TrainingLanding() {
       {/* Stats Section */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-red-500">90000+</h2>
+          <h2 className="text-3xl font-bold text-primary  ">90000+</h2>
           <p className="text-gray-700 text-sm">Successful Students</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-red-500">34000+</h2>
+          <h2 className="text-3xl font-bold text-primary  ">34000+</h2>
           <p className="text-gray-700 text-sm">Expert Freelancers</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-red-500">40000+</h2>
+          <h2 className="text-3xl font-bold text-primary  ">40000+</h2>
           <p className="text-gray-700 text-sm">Skilled Job Holders</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-red-500">600+</h2>
+          <h2 className="text-3xl font-bold text-primary  ">600+</h2>
           <p className="text-gray-700 text-sm">Industry Expert</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-red-500">89%</h2>
+          <h2 className="text-3xl font-bold text-primary  ">89%</h2>
           <p className="text-gray-700 text-sm">Success Ratio</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-red-500">3000+</h2>
+          <h2 className="text-3xl font-bold text-primary  ">3000+</h2>
           <p className="text-gray-700 text-sm">Companies</p>
         </div>
       </div>
     </div>
   )
 }
-

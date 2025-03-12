@@ -42,7 +42,7 @@ export default function ScrollToTopButton() {
           aria-label="Scroll to top"
         >
           <div className="relative">
-            <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-500 to-red-600 blur-sm opacity-75 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-500 to-primary  blur-sm opacity-75 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="relative flex items-center justify-center bg-white text-red-500 w-12 h-12 rounded-lg shadow-lg border border-red-100 group-hover:bg-red-50 transition-all duration-300">
               <ChevronUp className="h-6 w-6 group-hover:scale-110 transition-transform duration-300" />
             </div>

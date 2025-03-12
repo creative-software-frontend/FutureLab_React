@@ -34,27 +34,27 @@ const Header = () => {
 
         <div className="flex items-center space-x-6">
           <nav className="hidden md:flex items-center space-x-6">
-            <Link href="/" className="text-gray-700 hover:text-red-500">
+            <Link href="/" className="text-gray-700 hover:text-primary  ">
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-red-500">
+            <Link href="/about" className="text-gray-700 hover:text-primary  ">
               About us
             </Link>
-            <Link href="/story" className="text-gray-700 hover:text-red-500">
+            <Link href="/story" className="text-gray-700 hover:text-primary  ">
               Success story
             </Link>
-            <Link href="/freelancing" className="text-gray-700 hover:text-red-500">
+            <Link href="/freelancing" className="text-gray-700 hover:text-primary  ">
               Freelancing
             </Link>
-            <Link href="/payment" className="text-gray-700 hover:text-red-500">
+            <Link href="/payment" className="text-gray-700 hover:text-primary  ">
               Payment
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-red-500">
+            <Link href="/contact" className="text-gray-700 hover:text-primary  ">
               Contact
             </Link>
           </nav>
 
-          <Link href="/courses" className="bg-red-500 text-white px-6 py-2 rounded-lg flex items-center space-x-2">
+          <Link href="/courses" className="bg-primary   text-white px-6 py-2 rounded-lg flex items-center space-x-2">
             <span>Browse Course</span>
             <ChevronDown className="h-4 w-4" />
           </Link>
@@ -65,4 +65,3 @@ const Header = () => {
 }
 
 export default Header
-

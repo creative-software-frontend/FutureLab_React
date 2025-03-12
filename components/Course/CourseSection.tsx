@@ -122,7 +122,7 @@ export default function CoursesSection() {
                     <div className="text-sm">
                       Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                     </div>
-                    <button className="text-red-600 text-sm font-medium hover:text-red-700">Click for discount</button>
+                    <button className="text-primary  text-sm font-medium hover:text-red-700">Click for discount</button>
                   </CardFooter>
                 </Card>
               ))}
