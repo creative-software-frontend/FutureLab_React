@@ -122,7 +122,7 @@ export function DiscountModal({ isOpen, onClose, courseName }: DiscountModalProp
               <div>
                 <button
                   type="submit"
-                  className="w-[200px] bg-red-500 hover:bg-primary  text-white font-bold py-3 px-6 rounded"
+                  className="w-[200px] bg-red-500 hover:bg-red  text-white font-bold py-3 px-6 rounded"
                 >
                   Submit
                 </button>

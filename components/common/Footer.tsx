@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="text-sm text-gray-600 text-center">
             Copyright © 2025
             
-            Creative Software.
+             Future Lab Institute.
             
             
              All rights reserved |

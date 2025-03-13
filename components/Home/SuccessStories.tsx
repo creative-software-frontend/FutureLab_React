@@ -22,7 +22,7 @@ const successStories: SuccessStory[] = [
     id: 1,
     name: "Ifaz Ahmed Sami",
     field: "Freelancing",
-    income: "$2000",
+    income: "TK 1000",
     image: img1,
     videoUrl: "#",
     description: "Freelancing and Remote Job",
@@ -32,7 +32,7 @@ const successStories: SuccessStory[] = [
     id: 2,
     name: "Golam Rabiul Chowdhury",
     field: "Interior Design",
-    income: "$450",
+    income: "TK 850",
     image: img2,
     videoUrl: "#",
     description: "Interior Design Success",
@@ -42,7 +42,7 @@ const successStories: SuccessStory[] = [
     id: 3,
     name: "Uttam Saha",
     field: "3D Animation",
-    income: "$1200",
+    income: "TK 1000",
     image: img3,
     videoUrl: "#",
     description: "3D Animation Industry Success",
@@ -52,7 +52,7 @@ const successStories: SuccessStory[] = [
     id: 4,
     name: "Rakib Siddique",
     field: "MERN Stack Developer",
-    income: "$1800",
+    income: "TK 800",
     image: img4,
     videoUrl: "#",
     description: "Remote Job as MERN Developer",
@@ -67,7 +67,7 @@ export default function SuccessStories() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Success Stories</h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            The presence of our students in the ever expanding IT industry motivates us, drives us to guide more people
+            The presence of our students in the ever Future Lab Institute  motivates us, drives us to guide more people
             towards a sustainable future.
           </p>
         </div>
@@ -90,18 +90,18 @@ export default function SuccessStories() {
               </div>
 
               {/* Gradient Overlay */}
-              <div className={`absolute inset-0 bg-gradient-to-r ${story.bgColor} z-10 opacity-90`}></div>
+              <div className={`absolute inset-0 bg-gradient-to-r TK{story.bgColor} z-10 opacity-90`}></div>
 
               {/* Institute Logo */}
               <div className="absolute top-3 left-3 z-20">
-                <div className="bg-primary  rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                <div className="bg-red  rounded-full p-1 w-8 h-8 flex items-center justify-center">
                   <span className="text-white text-xs font-bold">CIT</span>
                 </div>
               </div>
 
               {/* Play Button */}
               <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 z-20">
-                <button className="bg-primary  hover:bg-red-700 transition-colors rounded-full p-3 text-white">
+                <button className="bg-red  hover:bg-red-700 transition-colors rounded-full p-3 text-white">
                   <Play className="h-6 w-6 fill-current" />
                 </button>
               </div>
@@ -124,7 +124,7 @@ export default function SuccessStories() {
         </div>
 
         <div className="text-center mt-10">
-          <Button variant="destructive" size="lg" className="px-8 bg-primary  ">
+          <Button variant="destructive" size="lg" className="px-8 bg-red  ">
             See More
           </Button>
         </div>

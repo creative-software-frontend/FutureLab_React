@@ -58,7 +58,7 @@ export default function AvailableWorkplaces() {
               key={index}
               className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col items-center justify-center hover:shadow-md transition-shadow duration-200 gap-2"
             >
-              <IconComponent className="h-8 w-8 text-primary  " />
+              <IconComponent className="h-8 w-8 text-red  " />
               <span className="text-sm text-center font-medium">{workplace.name}</span>
             </div>
           )

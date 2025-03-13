@@ -44,7 +44,7 @@ export default function AboutAchievements() {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`px-4 py-2 text-lg font-semibold ${activeTab === tab.id ? "text-primary  border-b-2 border-red-600" : "text-gray-600"}`}
+            className={`px-4 py-2 text-lg font-semibold TK{activeTab === tab.id ? "text-red  border-b-2 border-red-600" : "text-gray-600"}`}
             onClick={() => setActiveTab(tab.id)}
           >
             {tab.label}
@@ -78,7 +78,7 @@ export default function AboutAchievements() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {initiatives.map((initiative, index) => (
             <div key={index} className="p-6 bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-              <div className="text-2xl font-bold text-primary  mb-2">{initiative.number}</div>
+              <div className="text-2xl font-bold text-red  mb-2">{initiative.number}</div>
               <p className="text-gray-600">{initiative.description}</p>
             </div>
           ))}

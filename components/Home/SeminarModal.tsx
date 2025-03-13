@@ -79,7 +79,7 @@ export default function SeminarModal({ isOpen, onClose }: SeminarModalProps) {
             <div className="mt-6">
               <Button
                 type="submit"
-                className="w-40 bg-red-500 hover:bg-primary  text-white font-medium py-2 px-4 rounded"
+                className="w-40 bg-red-500 hover:bg-red  text-white font-medium py-2 px-4 rounded"
               >
                 Submit
               </Button>
@@ -87,7 +87,7 @@ export default function SeminarModal({ isOpen, onClose }: SeminarModalProps) {
           </form>
 
           <div className="mt-6 text-sm text-gray-600">
-            <p>If Necessary: 01624888444, 01624666000, 01777308777, 01966177177, 01990779900, 01625555444</p>
+            <p>If Necessary: 09649 866 933 , 01978 866 933</p>
           </div>
         </div>
       </div>

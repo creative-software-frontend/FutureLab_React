@@ -26,7 +26,7 @@ export default function SeminarSections() {
             </p>
             <Button
               onClick={openModal}
-              className="text-lg text-primary   border border-secondary rounded px-3 py-3 bg-secondary hover:bg-white"
+              className="text-lg text-red   border border-secondary rounded px-3 py-3 bg-secondary hover:bg-white"
             >
               Free Seminar Schedule
             </Button>
@@ -39,8 +39,8 @@ export default function SeminarSections() {
                     key={i}
                     className="absolute w-1 h-1 bg-red-200 rounded-full"
                     style={{
-                      top: `${Math.floor(i / 2) * 8}px`,
-                      left: `${(i % 2) * 8}px`,
+                      top: `TK{Math.floor(i / 2) * 8}px`,
+                      left: `TK{(i % 2) * 8}px`,
                     }}
                   />
                 ))}
@@ -70,8 +70,8 @@ export default function SeminarSections() {
                     key={i}
                     className="absolute w-1 h-1 bg-red-200 rounded-full"
                     style={{
-                      top: `${Math.floor(i / 2) * 8}px`,
-                      left: `${(i % 2) * 8}px`,
+                      top: `TK{Math.floor(i / 2) * 8}px`,
+                      left: `TK{(i % 2) * 8}px`,
                     }}
                   />
                 ))}
@@ -91,7 +91,7 @@ export default function SeminarSections() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Providing project-based classes is our specialty</h2>
             <p className="text-gray-600">
               We believe in skills gained through practical projects. A great number of people struggle to start their
-              career in the tech field for only having conceptual knowledge. Creative IT makes sure to provide hands-on
+              career in the tech field for only having conceptual knowledge.  Future Lab Institute makes sure to provide hands-on
               training to prepare you for job markets. Our course module contains projects that are designed to track
               your progress. During the course, you will be able to make a portfolio yourself to showcase your practical
               skills to the potential employers.

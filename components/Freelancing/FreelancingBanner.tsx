@@ -61,7 +61,7 @@ export default function FreelancingBanner() {
   return (
     <div className="py-16">
       <div className="container mx-auto px-4 max-w-7xl">
-        <h1 className="text-4xl font-bold text-primary  mb-8">Freelancing</h1>
+        <h1 className="text-4xl font-bold text-red  mb-8">Freelancing</h1>
 
         <div className="bg-orange-50/50 rounded-2xl p-8">
           <div className="grid lg:grid-cols-2 gap-8">
@@ -85,7 +85,7 @@ export default function FreelancingBanner() {
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                  <button className="w-16 h-16 rounded-full bg-primary  flex items-center justify-center">
+                  <button className="w-16 h-16 rounded-full bg-red  flex items-center justify-center">
                     <Play className="w-8 h-8 text-white fill-white" />
                   </button>
                 </div>
@@ -122,7 +122,7 @@ export default function FreelancingBanner() {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {stats.map((stat, index) => (
             <div key={index} className="text-center p-4">
-              <div className="text-2xl font-bold text-primary  mb-1">{stat.number}</div>
+              <div className="text-2xl font-bold text-red  mb-1">{stat.number}</div>
               <div className="text-sm text-gray-600">{stat.label}</div>
             </div>
           ))}

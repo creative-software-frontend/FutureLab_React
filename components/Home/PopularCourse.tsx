@@ -64,8 +64,8 @@ export default function PopularCourses() {
             {tabs.map((tab) => (
               <button
                 key={tab}
-                className={`px-4 py-2 font-medium text-sm whitespace-nowrap ${
-                  activeTab === tab ? "text-primary   border-b-2 border-primary  " : "text-gray-700 hover:text-gray-900"
+                className={`px-4 py-2 font-medium text-sm whitespace-nowrap TK{
+                  activeTab === tab ? "text-red   border-b-2 border-red  " : "text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >
@@ -123,7 +123,7 @@ export default function PopularCourses() {
                   <div className="flex items-center mb-4">
                     <div className="flex text-yellow-400 mr-2">
                       {[...Array(5)].map((_, i) => (
-                        <Star key={i} className={`h-4 w-4 ${i < 4 ? "fill-current" : ""}`} />
+                        <Star key={i} className={`h-4 w-4 TK{i < 4 ? "fill-current" : ""}`} />
                       ))}
                     </div>
                     <span className="text-sm text-gray-600">{course.reviews} Review</span>

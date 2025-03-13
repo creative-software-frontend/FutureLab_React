@@ -35,7 +35,7 @@ export default function Service() {
       title: "Graphic & Multimedia",
     },
     {
-      icon: <Code className="h-10 w-10 text-pink-500" />,
+      icon: <Code className="h-10 w-10 text-red-500" />,
       title: "Web & Software",
     },
     {
@@ -57,12 +57,12 @@ export default function Service() {
   ]
 
   return (
-    <div className="relative w-full bg-pink-50/50 py-2">
+    <div className="relative w-full bg-red-50/50 py-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
           <button
             onClick={() => scroll("left")}
-            className={`absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 flex h-8 w-8 items-center justify-center rounded-full border border-rose-200 bg-white text-rose-500 shadow-sm ${!canScrollLeft ? "opacity-50 cursor-not-allowed" : "hover:bg-rose-50"}`}
+            className={`absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 flex h-8 w-8 items-center justify-center rounded-full border border-rose-200 bg-white text-rose-500 shadow-sm TK{!canScrollLeft ? "opacity-50 cursor-not-allowed" : "hover:bg-rose-50"}`}
             disabled={!canScrollLeft}
           >
             <ChevronLeft className="h-5 w-5" />
@@ -86,7 +86,7 @@ export default function Service() {
 
           <button
             onClick={() => scroll("right")}
-            className={`absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 flex h-8 w-8 items-center justify-center rounded-full border border-rose-200 bg-white text-rose-500 shadow-sm ${!canScrollRight ? "opacity-50 cursor-not-allowed" : "hover:bg-rose-50"}`}
+            className={`absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 flex h-8 w-8 items-center justify-center rounded-full border border-rose-200 bg-white text-rose-500 shadow-sm TK{!canScrollRight ? "opacity-50 cursor-not-allowed" : "hover:bg-rose-50"}`}
             disabled={!canScrollRight}
           >
             <ChevronRight className="h-5 w-5" />

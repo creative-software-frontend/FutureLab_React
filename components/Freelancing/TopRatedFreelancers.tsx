@@ -57,7 +57,7 @@ export default function TopRatedFreelancers() {
             <Image src={video.image || "/placeholder.svg"} alt={video.title} fill className="object-cover" />
 
             {/* Transparent Overlay */}
-            <div className={`absolute inset-0 bg-gradient-to-r ${video.gradient}`}></div>
+            <div className={`absolute inset-0 bg-gradient-to-r TK{video.gradient}`}></div>
 
             {/* Content */}
             <div className="absolute inset-0 p-6 flex flex-col justify-between">

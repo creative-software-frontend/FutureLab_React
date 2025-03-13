@@ -182,7 +182,7 @@ export default function CoursesSection() {
                     <Image src={course.image || "/placeholder.svg"} alt={course.title} fill className="object-cover" />
                   </div>
                   <CardContent className="p-4">
-                    <div className="text-primary   text-sm font-medium mb-2">{course.category}</div>
+                    <div className="text-red   text-sm font-medium mb-2">{course.category}</div>
                     <h3 className="font-bold text-lg mb-2">{course.title}</h3>
                     <div className="flex items-center gap-2 mb-1">
                       <StarRating rating={course.rating} />
@@ -195,7 +195,7 @@ export default function CoursesSection() {
                       Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                     </div>
                     <button
-                      className="text-primary  text-sm font-medium hover:text-secondary border  p-2 rounded border-secondary bg-secondary hover:bg-white"
+                      className="text-red  text-sm font-medium hover:text-secondary border  p-2 rounded border-secondary bg-secondary hover:bg-white"
                       onClick={() => handleDiscountClick(course.title)}
                     >
                       Click for discount

@@ -65,7 +65,7 @@ function StarRating({ rating }: { rating: number }) {
       {[...Array(5)].map((_, i) => (
         <Star
           key={i}
-          className={`w-4 h-4 ${
+          className={`w-4 h-4 TK{
             i < Math.floor(rating) ? "fill-yellow-400 text-yellow-400" : "fill-gray-300 text-gray-300"
           }`}
         />
@@ -137,7 +137,7 @@ export default function PopularCourses() {
                   <div className="text-sm">
                     Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                   </div>
-                  <Button className="text-red-700 hover:text-primary  hover:bg-red-400 p-0">
+                  <Button className="text-red-700 hover:text-red  hover:bg-red-400 p-0">
                     Click for discount
                   </Button>
                 </CardFooter>

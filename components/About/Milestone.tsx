@@ -32,7 +32,7 @@ export default function MilestoneSection() {
       <div className="space-y-4 mb-12">
         <h2 className="text-3xl font-bold text-gray-900">Our Milestone</h2>
         <p className="text-gray-600 max-w-3xl">
-          Creative IT Institute is the harbor of thousands of successful freelancers in Bangladesh. We have trained and
+           Future Lab Institute Institute is the harbor of thousands of successful freelancers in Bangladesh. We have trained and
           produced more than 70,000 Freelancers in the past 15 years. We nurture the young talent by sharing knowledge
           and help students find the desired jobs to become financially solvent.
         </p>
@@ -81,10 +81,10 @@ export default function MilestoneSection() {
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-2 h-2 rounded-full transition-colors ${
+              className={`w-2 h-2 rounded-full transition-colors TK{
                 currentSlide === index ? "bg-gray-800" : "bg-gray-300"
               }`}
-              aria-label={`Go to slide ${index + 1}`}
+              aria-label={`Go to slide TK{index + 1}`}
             />
           ))}
         </div>

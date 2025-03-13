@@ -7,7 +7,7 @@ export default function TrainingLanding() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Hero Section */}
       <div className="mb-12">
-        <p className="text-primary   font-medium mb-2">Successfully 15 Year&apos;s</p>
+        <p className="text-red   font-medium mb-2">Successfully 15 Year&apos;s</p>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -16,7 +16,7 @@ export default function TrainingLanding() {
               Making Organization
             </h1>
             <p className="text-gray-600 mb-6">
-              Creative IT has been working with a vision to create IT experts for the past 15 years. In a fast pacing
+               Future Lab Institute has been working with a vision to create IT experts for the past 15 years. In a fast pacing
               world, where every sector relies on technology, you need to develop IT skills to secure a better future.
               With the utmost dedication, we have been able to make more than 70,000 IT experts who are currently
               working in different sectors.
@@ -24,13 +24,13 @@ export default function TrainingLanding() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="#"
-                className="bg-primary   text-white px-8 py-3 rounded-md font-medium hover:bg-secondary transition-colors"
+                className="bg-red   text-white px-8 py-3 rounded-md font-medium hover:bg-secondary transition-colors"
               >
                 Browse Course
               </Link>
               <Link
                 href="#"
-                className="bg-primary   text-white px-8 py-3 rounded-md font-medium hover:bg-secondary transition-colors"
+                className="bg-red   text-white px-8 py-3 rounded-md font-medium hover:bg-secondary transition-colors"
               >
                 Learn More
               </Link>
@@ -51,27 +51,27 @@ export default function TrainingLanding() {
       {/* Stats Section */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-primary  ">90000+</h2>
+          <h2 className="text-3xl font-bold text-red  ">90000+</h2>
           <p className="text-gray-700 text-sm">Successful Students</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-primary  ">34000+</h2>
+          <h2 className="text-3xl font-bold text-red  ">34000+</h2>
           <p className="text-gray-700 text-sm">Expert Freelancers</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-primary  ">40000+</h2>
+          <h2 className="text-3xl font-bold text-red  ">40000+</h2>
           <p className="text-gray-700 text-sm">Skilled Job Holders</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-primary  ">600+</h2>
+          <h2 className="text-3xl font-bold text-red  ">600+</h2>
           <p className="text-gray-700 text-sm">Industry Expert</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-primary  ">89%</h2>
+          <h2 className="text-3xl font-bold text-red  ">89%</h2>
           <p className="text-gray-700 text-sm">Success Ratio</p>
         </div>
         <div className="p-4">
-          <h2 className="text-3xl font-bold text-primary  ">3000+</h2>
+          <h2 className="text-3xl font-bold text-red  ">3000+</h2>
           <p className="text-gray-700 text-sm">Companies</p>
         </div>
       </div>

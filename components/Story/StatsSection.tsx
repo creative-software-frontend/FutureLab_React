@@ -16,7 +16,7 @@ const StatsSection: React.FC = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
           {stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center">
-              <span className="text-primary  text-3xl font-bold">{stat.value}</span>
+              <span className="text-red  text-3xl font-bold">{stat.value}</span>
               <span className="text-gray-600 text-sm">{stat.label}</span>
             </div>
           ))}
