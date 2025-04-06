@@ -29,7 +29,7 @@ const Header = () => {
     <header className={`bg-white shadow-md py-4 TK{isFixed ? "fixed top-0 left-0 right-0 z-50 animate-slideDown" : ""}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2">
-          <Image src={logo || "/placeholder.svg"} alt=" Future Lab Institute Institute" className="w-70 h-10" />
+          <Image src={logo || "/placeholder.svg"} alt=" Future Lab Institute Institute" className="w-70 h-35" />
         </Link>
 
         <div className="flex items-center space-x-6">
