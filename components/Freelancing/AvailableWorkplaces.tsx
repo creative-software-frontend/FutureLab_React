@@ -1,25 +1,44 @@
-import Image from "next/image"
+"use client"
+
+import {
+  Briefcase,
+  Code,
+  Palette,
+  ShoppingBag,
+  Globe,
+  Play,
+  FileCode,
+  GraduationCap,
+  Layers,
+  PenTool,
+  Clock,
+  ImageIcon,
+  Users,
+  ArrowUpRight,
+  VideoIcon as Vector,
+  TreePine,
+} from "lucide-react"
 
 export default function AvailableWorkplaces() {
   const workplaces = [
-    { name: "Freepik", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Freelancer", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Fiverr", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Envato", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Canva", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Codecanyon", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "CodeStore", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Etudes", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "99designs", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Google Play", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "GraphicRiver", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "ThemeForest", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "PeoplePerHour", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "StoryBlocks", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Toptal", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "Upwork", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "VectorStock", logo: "/placeholder.svg?height=30&width=80" },
-    { name: "ThemeForest", logo: "/placeholder.svg?height=30&width=80" },
+    { name: "Freepik", icon: ImageIcon },
+    { name: "Freelancer", icon: Briefcase },
+    { name: "Fiverr", icon: ShoppingBag },
+    { name: "Envato", icon: Globe },
+    { name: "Canva", icon: Palette },
+    { name: "Codecanyon", icon: Code },
+    { name: "CodeStore", icon: FileCode },
+    { name: "Etudes", icon: GraduationCap },
+    { name: "99designs", icon: PenTool },
+    { name: "Google Play", icon: Play },
+    { name: "GraphicRiver", icon: Vector },
+    { name: "ThemeForest", icon: TreePine },
+    { name: "PeoplePerHour", icon: Clock },
+    { name: "StoryBlocks", icon: Layers },
+    { name: "Toptal", icon: Users },
+    { name: "Upwork", icon: ArrowUpRight },
+    { name: "VectorStock", icon: Vector },
+    { name: "ThemeForest", icon: TreePine },
   ]
 
   return (
@@ -31,20 +50,19 @@ export default function AvailableWorkplaces() {
       </p>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        {workplaces.map((workplace, index) => (
-          <div
-            key={index}
-            className="bg-white border border-gray-200 rounded-lg p-4 flex items-center justify-center hover:shadow-md transition-shadow duration-200"
-          >
-            <Image
-              src={workplace.logo || "/placeholder.svg"}
-              alt={`${workplace.name} logo`}
-              width={80}
-              height={30}
-              className="h-[30px] w-auto object-contain"
-            />
-          </div>
-        ))}
+        {workplaces.map((workplace, index) => {
+          const IconComponent = workplace.icon
+
+          return (
+            <div
+              key={index}
+              className="bg-white border border-gray-200 rounded-lg p-4 flex flex-col items-center justify-center hover:shadow-md transition-shadow duration-200 gap-2"
+            >
+              <IconComponent className="h-8 w-8 text-red  " />
+              <span className="text-sm text-center font-medium">{workplace.name}</span>
+            </div>
+          )
+        })}
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ export default function ExclusiveSolutions() {
       icon: <Heart className="w-12 h-12 text-purple-500" />,
       title: "Lifetime Support",
       description:
-        "Creative IT and its students share a lifetime bond. We strengthen our bond with you by providing lifelong support that helps you to overcome any problem in your career path even after completing your course. Our expert support team ensures 24-hour service to all of our students. The personalized feedback that you receive from us, helps you grow, every day.",
+        " Future Lab Institute and its students share a lifetime bond. We strengthen our bond with you by providing lifelong support that helps you to overcome any problem in your career path even after completing your course. Our expert support team ensures 24-hour service to all of our students. The personalized feedback that you receive from us, helps you grow, every day.",
     },
     {
       icon: <BriefcaseIcon className="w-12 h-12 text-sky-500" />,
@@ -52,7 +52,7 @@ export default function ExclusiveSolutions() {
         </div>
 
         <div className="text-center mt-10">
-          <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-md font-medium transition-colors">
+          <button className="bg-red   hover:bg-red-700 text-white px-8 py-3 rounded-md font-medium transition-colors">
             Our Facility
           </button>
         </div>

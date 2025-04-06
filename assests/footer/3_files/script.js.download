@@ -2,47 +2,47 @@
 
 
 
-$(function(){
+TK(function(){
   'use strict';
 // Sticky Menu Start===========================
-$(window).scroll(function(){
-  var sticky = $(this).scrollTop();
+TK(window).scroll(function(){
+  var sticky = TK(this).scrollTop();
   if(sticky > 100){
-    $("#navbar, .sm_menu").addClass("nav_sticky");
-    $(".back_to_top").addClass("back_btn_show");
+    TK("#navbar, .sm_menu").addClass("nav_sticky");
+    TK(".back_to_top").addClass("back_btn_show");
   }
   else{
-    $("#navbar, .sm_menu").removeClass("nav_sticky");
-    $(".back_to_top").removeClass("back_btn_show");
+    TK("#navbar, .sm_menu").removeClass("nav_sticky");
+    TK(".back_to_top").removeClass("back_btn_show");
   }
 })
 
-$(window).scroll(function(){
-  var scrolling = $(this).scrollTop()
+TK(window).scroll(function(){
+  var scrolling = TK(this).scrollTop()
   if(scrolling>1145){
-      $('.pg_wait_wrap').addClass('pg_wait_sticky')
+      TK('.pg_wait_wrap').addClass('pg_wait_sticky')
   }
   else{
-      $('.pg_wait_wrap').removeClass('pg_wait_sticky')
+      TK('.pg_wait_wrap').removeClass('pg_wait_sticky')
   }
 })
 
-  $(window).scroll(function () {
-    var scrolling = $(this).scrollTop()
+  TK(window).scroll(function () {
+    var scrolling = TK(this).scrollTop()
     if (scrolling > 400) {
-      $('.sticky_adder_single').addClass('category-content_sticky')
+      TK('.sticky_adder_single').addClass('category-content_sticky')
     }
     else {
-      $('.sticky_adder_single').removeClass('category-content_sticky')
+      TK('.sticky_adder_single').removeClass('category-content_sticky')
     }
   });
-  $(window).scroll(function () {
-  var scrolling = $(this).scrollTop()
+  TK(window).scroll(function () {
+  var scrolling = TK(this).scrollTop()
   if(scrolling>1270){
-      $('.sticky_adder_latest').addClass('category-content_sticky')
+      TK('.sticky_adder_latest').addClass('category-content_sticky')
   }
   else{
-      $('.sticky_adder_latest').removeClass('category-content_sticky')
+      TK('.sticky_adder_latest').removeClass('category-content_sticky')
   }
 })
 
@@ -57,7 +57,7 @@ var offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
 
 
 // Common Menu Slider Start======================
-$(".menu_slider").slick({
+TK(".menu_slider").slick({
   dots:false,
   arrows:false,
   autoplay:false,
@@ -84,7 +84,7 @@ $(".menu_slider").slick({
     }
   ]
 })
-$(".course_menu_slider").slick({
+TK(".course_menu_slider").slick({
   dots:false,
   arrows:false,
   autoplay:false,
@@ -120,13 +120,13 @@ $(".course_menu_slider").slick({
 
 
 // Banner Video Start===================================
-$('.venobox').venobox();
+TK('.venobox').venobox();
 
 // Banner Video End=====================================
 
 
 // Course top Slider Start==============================
-    $('.course_slider_top').slick({
+    TK('.course_slider_top').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         arrows:true,
@@ -175,7 +175,7 @@ $('.venobox').venobox();
 
 
 // Alamin Popular Courses Slider Start===================
-$(".course_mix_btn").slick({
+TK(".course_mix_btn").slick({
   autoplay:false,
   focusOnSelect: true,
   slidesToShow: 5,
@@ -227,7 +227,7 @@ $(".course_mix_btn").slick({
   ]
 });
 
-$(".course_body_slider").slick({
+TK(".course_body_slider").slick({
   centerMode:false,
   centerPadding:"0",
   draggable: false,
@@ -243,7 +243,7 @@ $(".course_body_slider").slick({
 })
 
 
-$(".course_category_slider").slick({
+TK(".course_category_slider").slick({
   centerMode: false,
   autoplay:false,
   focusOnSelect:true,
@@ -279,7 +279,7 @@ $(".course_category_slider").slick({
   ]
 });
 // only For Instructor and Teacher Page Course Slider Start
-$(".instructor_teacher_page_course_slide").slick({
+TK(".instructor_teacher_page_course_slide").slick({
   autoplay:false,
   slidesToShow: 3,
   slidesToScroll: 1,
@@ -302,7 +302,7 @@ $(".instructor_teacher_page_course_slide").slick({
 
 
 // Story Slider Start==================================
-$(".story_text_slider").slick({
+TK(".story_text_slider").slick({
   centerMode: true,
   centerPadding: '0px',
   slidesToShow: 3,
@@ -333,7 +333,7 @@ $(".story_text_slider").slick({
 
 
 // Feedback_1 Slider Start=============================
-$(".feedback_1_slider").slick({
+TK(".feedback_1_slider").slick({
   autoplay:false,
   slidesToShow:2,
   slidesToScroll:1,
@@ -360,7 +360,7 @@ $(".feedback_1_slider").slick({
 
 
 // Feedback_2 Slider Start===========================
-$(".feedback_2_slider").slick({
+TK(".feedback_2_slider").slick({
   autoplay:false,
   slidesToShow:2,
   slidesToScroll:1,
@@ -387,7 +387,7 @@ $(".feedback_2_slider").slick({
 
 
 // Blog Slider Start=============================
-$(".blog_slider").slick({
+TK(".blog_slider").slick({
   autoplay:false,
   slidesToShow:3,
   slidesToScroll:1,
@@ -415,7 +415,7 @@ $(".blog_slider").slick({
 
 
 // pg-Project Slider Start========================
-$(".pgp_slider").slick({
+TK(".pgp_slider").slick({
   autoplay:true,
   slidesToShow:1,
   slidesToScroll:1,
@@ -424,7 +424,7 @@ $(".pgp_slider").slick({
 })
 // pg-Project Slider End=========================
 
-$(".milestone_slider").slick({
+TK(".milestone_slider").slick({
   centerMode: true,
   centerPadding: '0px',
   autoplay:false,
@@ -438,7 +438,7 @@ $(".milestone_slider").slick({
 
 
 // pg-Project Slider Start========================
-$(".pg_succsess_img_slider").slick({
+TK(".pg_succsess_img_slider").slick({
   autoplay:false,
   slidesToShow:1,
   slidesToScroll:1,
@@ -450,9 +450,9 @@ $(".pg_succsess_img_slider").slick({
 // pg-Project Slider End========================
 });
 
-$(document).ready(function(){
-  $(".course_single_btn").click(function(){
-    $(".course_single_btn").addClass("active");
+TK(document).ready(function(){
+  TK(".course_single_btn").click(function(){
+    TK(".course_single_btn").addClass("active");
   });
 });
 
@@ -522,7 +522,7 @@ var connectTabs = new Tabs();
 // Success Page Area End=============
 
 // Office and Training Area Start=========
-$(".office_and_traning_slider_for").slick({
+TK(".office_and_traning_slider_for").slick({
   autoplay:false,
   slidesToShow:1,
   slidesToScroll:1,
@@ -531,7 +531,7 @@ $(".office_and_traning_slider_for").slick({
   dots:false,
   asNavFor:".office_and_traning_slider"
 })
-$(".office_and_traning_slider").slick({
+TK(".office_and_traning_slider").slick({
   autoplay:false,
   slidesToShow:9,
   slidesToScroll:1,
@@ -560,7 +560,7 @@ $(".office_and_traning_slider").slick({
 // Office and Training Area Start=========
 
 // Lelest Post JS
-$(".letest_post_slider").slick({
+TK(".letest_post_slider").slick({
   slidesToShow:3,
   slidesToscroll:1,
   autoplay:false,
@@ -598,11 +598,11 @@ $(".letest_post_slider").slick({
   ]
 });
 
-$('.counter').each(function() {
-    var $this = $(this),
-        countTo = $this.attr('data-count');
+TK('.counter').each(function() {
+    var TKthis = TK(this),
+        countTo = TKthis.attr('data-count');
 
-    $({ countNum: $this.text()}).animate({
+    TK({ countNum: TKthis.text()}).animate({
       countNum: countTo
     },
 
@@ -611,10 +611,10 @@ $('.counter').each(function() {
       duration: 8000,
       easing:'linear',
       step: function() {
-        $this.text(Math.floor(this.countNum));
+        TKthis.text(Math.floor(this.countNum));
       },
       complete: function() {
-        $this.text(this.countNum);
+        TKthis.text(this.countNum);
         //alert('finished');
       }
 
@@ -625,7 +625,7 @@ $('.counter').each(function() {
   });
 
 //Bangla Counter Up Start================================
-// (function ($) {
+// (function (TK) {
 //   var banglaNumbers = {
 //     0: "০",
 //     1: "১",
@@ -646,8 +646,8 @@ $('.counter').each(function() {
 //     }
 //     return retStr;
 //   };
-//   $.fn.counterUp = function (options) {
-//     var settings = $.extend(
+//   TK.fn.counterUp = function (options) {
+//     var settings = TK.extend(
 //       {
 //         time: 400,
 //         delay: 10
@@ -656,38 +656,38 @@ $('.counter').each(function() {
 //     );
 
 //     return this.each(function () {
-//       var $this = $(this);
-//       var $settings = settings;
+//       var TKthis = TK(this);
+//       var TKsettings = settings;
 
 //       var counterUpper = function () {
 //         var nums = [];
-//         var divisions = $settings.time / $settings.delay;
-//         var num = $this.text();
+//         var divisions = TKsettings.time / TKsettings.delay;
+//         var num = TKthis.text();
 //         for (var i = divisions; i >= 1; i--) {
 //           var newNum = parseInt((num / divisions) * i);
 //           nums.unshift(newNum.toString().conveterEngToBng());
 //         }
 
-//         $this.data("counterup-nums", nums);
-//         $this.text("0");
+//         TKthis.data("counterup-nums", nums);
+//         TKthis.text("0");
 //         var f = function () {
-//           $this.text($this.data("counterup-nums").shift());
-//           if ($this.data("counterup-nums").length) {
-//             setTimeout($this.data("counterup-func"), $settings.delay);
+//           TKthis.text(TKthis.data("counterup-nums").shift());
+//           if (TKthis.data("counterup-nums").length) {
+//             setTimeout(TKthis.data("counterup-func"), TKsettings.delay);
 //           } else {
-//             delete $this.data("counterup-nums");
-//             $this.data("counterup-nums", null);
-//             $this.data("counterup-func", null);
+//             delete TKthis.data("counterup-nums");
+//             TKthis.data("counterup-nums", null);
+//             TKthis.data("counterup-func", null);
 //           }
 //         };
-//         $this.data("counterup-func", f);
-//         setTimeout($this.data("counterup-func"), $settings.delay);
+//         TKthis.data("counterup-func", f);
+//         setTimeout(TKthis.data("counterup-func"), TKsettings.delay);
 //       };
-//       $this.waypoint(counterUpper, { offset: "100%", triggerOnce: true });
+//       TKthis.waypoint(counterUpper, { offset: "100%", triggerOnce: true });
 //     });
 //   };
 // })(jQuery);
-// $(".counter").counterUp({
+// TK(".counter").counterUp({
 //   delay: 10,
 //   time: 2000
 // });

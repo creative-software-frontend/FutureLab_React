@@ -4,7 +4,7 @@ import AvailableWorkplaces from '@/components/Freelancing/AvailableWorkplaces';
 import FreelancingBanner from '@/components/Freelancing/FreelancingBanner';
 import FreelancingCategories from '@/components/Freelancing/FreelancingCategories';
 import FreelancingInitiativesCourses from '@/components/Freelancing/FreelancingInitiativesCourses';
-import TopRatedFreelancers from '@/components/Freelancing/TopRatedFreelancers';
+// import TopRatedFreelancers from '@/components/Freelancing/TopRatedFreelancers';
 import React from 'react';
 
 const Page: React.FC = () => {
@@ -15,7 +15,7 @@ const Page: React.FC = () => {
    <FreelancingCategories/>
    <FreelancingInitiativesCourses/>
    <AvailableWorkplaces/>
-   <TopRatedFreelancers/>
+   {/* <TopRatedFreelancers/> */}
    
    </>
   );

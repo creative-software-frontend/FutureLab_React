@@ -19,9 +19,9 @@ export default function StatsSection() {
   const stats = [
     {
       number: "20000+",
-      title: "Students Choose Creative IT",
+      title: "Students Choose  Future Lab Institute",
       description:
-        "Creative IT has become a trusted training institute for not only Bangladeshi residents but also those living abroad. More than 20,000 passionate learners are working in different markets after completing courses from our institute.",
+        " Future Lab Institute has become a trusted training institute for not only Bangladeshi residents but also those living abroad. More than 20,000 passionate learners are working in different markets after completing courses from our institute.",
       bgColor: "bg-[#fafdf2]",
       numberColor: "text-[#89B450]",
     },
@@ -58,8 +58,8 @@ export default function StatsSection() {
           {/* Stats Cards */}
           <div ref={scrollRef} className="flex space-x-6 overflow-x-auto scrollbar-hide lg:overflow-x-visible">
             {stats.map((stat, index) => (
-              <div key={index} className={`flex-shrink-0 w-full lg:w-1/3 ${stat.bgColor} rounded-lg p-8`}>
-                <div className={`text-5xl font-bold mb-4 ${stat.numberColor}`}>{stat.number}</div>
+              <div key={index} className={`flex-shrink-0 w-full lg:w-1/3 TK{stat.bgColor} rounded-lg p-8`}>
+                <div className={`text-5xl font-bold mb-4 TK{stat.numberColor}`}>{stat.number}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">{stat.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{stat.description}</p>
               </div>

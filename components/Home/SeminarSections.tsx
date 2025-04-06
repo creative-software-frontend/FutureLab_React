@@ -1,9 +1,18 @@
+"use client"
+
+import { useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import SeminarModal from "./SeminarModal"
 import img1 from "@/assests/story/8.jpeg"
 import img2 from "@/assests/story/9.jpeg"
 
 export default function SeminarSections() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const openModal = () => setIsModalOpen(true)
+  const closeModal = () => setIsModalOpen(false)
+
   return (
     <section className="bg-[#fff8f8]">
       {/* Free Seminars Section */}
@@ -15,7 +24,10 @@ export default function SeminarSections() {
               Need guidelines to choose a suitable course? Join our free seminars to consult with our experts, they will
               guide you to pick the course that matches your interest and discuss the career prospects.
             </p>
-            <Button variant="destructive" size="lg" className="rounded-md">
+            <Button
+              onClick={openModal}
+              className="text-lg text-red   border border-secondary rounded px-3 py-3 bg-secondary hover:bg-white"
+            >
               Free Seminar Schedule
             </Button>
           </div>
@@ -27,8 +39,8 @@ export default function SeminarSections() {
                     key={i}
                     className="absolute w-1 h-1 bg-red-200 rounded-full"
                     style={{
-                      top: `${Math.floor(i / 2) * 8}px`,
-                      left: `${(i % 2) * 8}px`,
+                      top: `TK{Math.floor(i / 2) * 8}px`,
+                      left: `TK{(i % 2) * 8}px`,
                     }}
                   />
                 ))}
@@ -36,7 +48,7 @@ export default function SeminarSections() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src={img1}
+                src={img1 || "/placeholder.svg?height=400&width=600"}
                 alt="Students in a seminar"
                 width={600}
                 height={400}
@@ -58,8 +70,8 @@ export default function SeminarSections() {
                     key={i}
                     className="absolute w-1 h-1 bg-red-200 rounded-full"
                     style={{
-                      top: `${Math.floor(i / 2) * 8}px`,
-                      left: `${(i % 2) * 8}px`,
+                      top: `TK{Math.floor(i / 2) * 8}px`,
+                      left: `TK{(i % 2) * 8}px`,
                     }}
                   />
                 ))}
@@ -67,7 +79,7 @@ export default function SeminarSections() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src={img2}
+                src={img2 || "/placeholder.svg?height=400&width=600"}
                 alt="Project based classroom"
                 width={600}
                 height={400}
@@ -79,7 +91,7 @@ export default function SeminarSections() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Providing project-based classes is our specialty</h2>
             <p className="text-gray-600">
               We believe in skills gained through practical projects. A great number of people struggle to start their
-              career in the tech field for only having conceptual knowledge. Creative IT makes sure to provide hands-on
+              career in the tech field for only having conceptual knowledge.  Future Lab Institute makes sure to provide hands-on
               training to prepare you for job markets. Our course module contains projects that are designed to track
               your progress. During the course, you will be able to make a portfolio yourself to showcase your practical
               skills to the potential employers.
@@ -87,6 +99,9 @@ export default function SeminarSections() {
           </div>
         </div>
       </div>
+
+      {/* Modal */}
+      <SeminarModal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   )
 }

@@ -13,8 +13,6 @@
   }
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -23,9 +21,13 @@
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
+    /* Change from hsl() notation to space-separated values */
+    --red: 120 94% 59%;
+    /* --red: 213 0% 0%;  */
+
+     /* Green */
+    --secondary: 24 96% 50%; /* Orange */
+    --red-foreground: 0 0% 98%;
     --secondary-foreground: 0 0% 9%;
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
@@ -50,9 +52,9 @@
     --card-foreground: 0 0% 98%;
     --popover: 0 0% 3.9%;
     --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
+    --red: 0 84% 60%; /* red-500 */
+    --red-foreground: 0 0% 9%;
+    --secondary: 24 96% 50%; /* orange-600 */
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 14.9%;
     --muted-foreground: 0 0% 63.9%;
@@ -71,8 +73,6 @@
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
@@ -81,6 +81,7 @@
     @apply bg-background text-foreground;
   }
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -95,3 +96,4 @@
 .animate-fade-in {
   animation: fadeIn 0.3s ease-in-out;
 }
+

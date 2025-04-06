@@ -20,9 +20,9 @@ export default {
   				DEFAULT: 'hsl(var(--popover))',
   				foreground: 'hsl(var(--popover-foreground))'
   			},
-  			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
+  			red  : {
+  				DEFAULT: 'hsl(var(--red  ))',
+  				foreground: 'hsl(var(--red  -foreground))'
   			},
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
@@ -49,7 +49,14 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			// Add your hex colors directly here
+			// red: "#f8bbd0",
+			blue: "#2196f3",
+			green: "#4caf50",
+			red:"#EF4444",
+			oragne:"#EA580C"
+			// Add as many as you need
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

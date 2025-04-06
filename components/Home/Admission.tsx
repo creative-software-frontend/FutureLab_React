@@ -9,7 +9,7 @@ export default function Admission() {
         {Array(24)
           .fill(0)
           .map((_, i) => (
-            <div key={`dot-left-${i}`} className="w-1 h-1 rounded-full bg-black"></div>
+            <div key={`dot-left-TK{i}`} className="w-1 h-1 rounded-full bg-black"></div>
           ))}
       </div>
 
@@ -18,7 +18,7 @@ export default function Admission() {
         {Array(24)
           .fill(0)
           .map((_, i) => (
-            <div key={`dot-right-${i}`} className="w-1 h-1 rounded-full bg-black"></div>
+            <div key={`dot-right-TK{i}`} className="w-1 h-1 rounded-full bg-black"></div>
           ))}
       </div>
 
