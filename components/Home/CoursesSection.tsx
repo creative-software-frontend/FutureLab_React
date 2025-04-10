@@ -195,7 +195,7 @@ export default function CoursesSection() {
                       Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                     </div>
                     <button
-                      className="text-red  text-sm font-medium hover:text-secondary border  p-2 rounded border-secondary bg-secondary hover:bg-white"
+                      className="text-white  text-sm font-medium hover:text-secondary border  p-2 rounded border-secondary bg-secondary hover:bg-white"
                       onClick={() => handleDiscountClick(course.title)}
                     >
                       Click for discount

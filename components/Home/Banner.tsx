@@ -1,4 +1,4 @@
-import { Book, Play } from "lucide-react"
+import { Book, Play } from "lucide-react";
 // import Image from "next/image"
 // import Link from "next/link"
 
@@ -23,9 +23,10 @@ export default function Banner() {
             </h1>
 
             <p className="text-gray-600 text-lg max-w-2xl">
-              With a vision to turn manpower into assets,  Future Lab Institute Institute is ready to enhance your learning
-              experience with skilled mentors and an updated curriculum. Pick your desired course from more than 45
-              trendy options.
+              With a vision to turn manpower into assets, Future Lab Institute
+              Institute is ready to enhance your learning experience with
+              skilled mentors and an updated curriculum. Pick your desired
+              course from more than 45 trendy options.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -38,33 +39,21 @@ export default function Banner() {
                 <span>Join free seminar</span>
               </button>
             </div>
-
-          
           </div>
-
-          {/* Right Content */}
+          {/* Right Content */};
           <div className="flex-1">
             <div className="relative bg-[#001233] rounded-2xl p-8 overflow-hidden">
-              <div className="absolute top-4 left-4">
-                {/* <Image src="/placeholder.svg" alt="Best IT Institute" width={120} height={40} className="h-8 w-auto" /> */}
-              </div>
-              <div className="absolute top-4 right-4">
-                {/* <Image
-                  src="/placeholder.svg"
-                  alt="Creative Business Group"
-                  width={120}
-                  height={40}
-                  className="h-8 w-auto"
-                /> */}
-              </div>
-              <div className="pt-16 text-center">
-                <div className="text-red   text-7xl font-bold">
-                  16
-                  <span className="text-2xl text-yellow-400 ml-2">Years</span>
-                </div>
-                <div className="text-white text-xl mt-2">Empowering Technology</div>
-                <div className="mt-8 bg-[#003399] text-white py-3 px-8 rounded-full inline-block">
-                   Future Lab Institute INSTITUTE
+              <div className="flex justify-center items-center h-full">
+                <div className="w-full aspect-video">
+                  <iframe
+                    className="w-full h-full rounded-lg shadow-lg"
+                    src="https://www.youtube.com/embed/-xLeHF_TdOY?si=t0L0g8mPi3kPOPuo&autoplay=1&mute=1"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -80,5 +69,5 @@ export default function Banner() {
         Join Free Seminar
       </div> */}
     </div>
-  )
+  );
 }
