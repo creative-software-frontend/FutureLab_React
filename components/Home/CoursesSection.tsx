@@ -170,7 +170,7 @@ export default function CoursesSection() {
   }
 
   return (
-    <div className="py-16 bg-white">
+    <div className="py-2 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         {Object.entries(courses).map(([category, categoryCourses]) => (
           <div key={category} className="mb-16">

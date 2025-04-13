@@ -16,7 +16,7 @@ const locations: OfficeLocation[] = [
     title: "Head Office [Main Campus, Dhaka]",
     type: "Head Office",
     address: ["Momtaz Plaza (5th Floor)", "Opposite of Labaid Hospital", "Dhanmondi 27", "Dhaka - 1205, Bangladesh"],
-    phones: ["+880 1727308777", "+880 1727308778", "+880 1552186444", "+880 1966177177", "+880 1625555444"],
+    phones: ["09649 866 977", "01978 866 977", "01898 879 001"],
     email: "info@creativeitinstitute.com",
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2258800127246!2d90.37352807538926!3d23.738122178607744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a02be491%3A0x5b5e96c0c5c1c0f0!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1709825437444!5m2!1sen!2sbd",
@@ -26,7 +26,7 @@ const locations: OfficeLocation[] = [
     title: "Head Office [Dhanmondi, Dhaka]",
     type: "Head Office",
     address: ["Mirpur Tech (5th floor)", "House#15/A, Road#3 Dhanmondi", "Dhaka - 1205, Bangladesh"],
-    phones: ["+880 1625555444", "+880 1966177177", "+880 1958155245"],
+    phones: ["09649 866 977", "01978 866 977", "01898 879 001"],
     email: "info@creativeitinstitute.com",
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2258800127246!2d90.37352807538926!3d23.738122178607744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a02be491%3A0x5b5e96c0c5c1c0f0!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1709825437444!5m2!1sen!2sbd",
@@ -36,7 +36,7 @@ const locations: OfficeLocation[] = [
     title: "Branch Office [Chattogram Branch]",
     type: "Branch Office",
     address: ["H.M. Harongate Road (4th Floor)", "Beside Mimi Super Market", "Chattogram 4203, Bangladesh"],
-    phones: ["+880 1847422968", "+880 1847422969", "+880 1847422969"],
+    phones: ["09649 866 977", "01978 866 977", "01898 879 001"],
     email: "ctg@creativeitinstitute.com",
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2258800127246!2d90.37352807538926!3d23.738122178607744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a02be491%3A0x5b5e96c0c5c1c0f0!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1709825437444!5m2!1sen!2sbd",
@@ -44,9 +44,10 @@ const locations: OfficeLocation[] = [
   },
 ]
 
+
 export default function ContactSection() {
   return (
-    <div className="py-16 bg-white">
+    <div className="py-4 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         <h1 className="text-4xl font-bold text-red  mb-4">Contact Us</h1>
         <p className="text-gray-600 mb-12">

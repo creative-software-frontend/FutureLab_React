@@ -3,7 +3,7 @@ export default function SuccessStories() {
  
 
   return (
-    <div className="py-16 bg-white">
+    <div className="py-1 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         <h1 className="text-4xl font-bold text-red  mb-4">Success Stories</h1>
         <p className="text-gray-600 mb-8 max-w-4xl">

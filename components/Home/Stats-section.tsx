@@ -44,8 +44,8 @@ export default function StatsSection() {
   ]
 
   return (
-    <div className="relative w-full py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="relative w-full py-2">
+      <div className="max-w-7xl mx-auto  sm:px-6 lg:px-">
         <div className="relative">
           {/* Navigation Arrows */}
           <button
@@ -58,7 +58,7 @@ export default function StatsSection() {
           {/* Stats Cards */}
           <div ref={scrollRef} className="flex space-x-6 overflow-x-auto scrollbar-hide lg:overflow-x-visible">
             {stats.map((stat, index) => (
-              <div key={index} className={`flex-shrink-0 w-full lg:w-1/3 TK{stat.bgColor} rounded-lg p-8`}>
+              <div key={index} className={`flex-shrink-0 w-full lg:w-1/3 TK{stat.bgColor} rounded-lg p-4`}>
                 <div className={`text-5xl font-bold mb-4 TK{stat.numberColor}`}>{stat.number}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">{stat.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{stat.description}</p>

@@ -1,6 +1,6 @@
 export default function BranchesDepartments() {
     return (
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto  ">
         {/* Our Branches Section */}
         <h2 className="text-2xl font-bold mb-6">Our Branches</h2>
   

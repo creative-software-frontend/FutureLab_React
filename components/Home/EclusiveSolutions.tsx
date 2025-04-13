@@ -51,11 +51,11 @@ export default function ExclusiveSolutions() {
           ))}
         </div>
 
-        <div className="text-center mt-10">
+        {/* <div className="text-center mt-1">
           <button className="bg-red   hover:bg-red-700 text-white px-8 py-3 rounded-md font-medium transition-colors">
             Our Facility
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   )

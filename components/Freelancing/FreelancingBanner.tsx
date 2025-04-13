@@ -59,7 +59,7 @@ const stats = [
 
 export default function FreelancingBanner() {
   return (
-    <div className="py-16">
+    <div className="py-4">
       <div className="container mx-auto px-4 max-w-7xl">
         <h1 className="text-4xl font-bold text-red  mb-8">Freelancing</h1>
 
