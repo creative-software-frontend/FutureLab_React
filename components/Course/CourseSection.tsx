@@ -98,8 +98,8 @@ function StarRating({ rating }: { rating: number }) {
 
 export default function CoursesSection() {
   return (
-    <div className="py-16 bg-white">
-      <div className="container mx-auto px-4 max-w-7xl">
+    <div className="py-1 bg-white">
+      <div className="container mx-auto  max-w-7xl">
         {Object.entries(courses).map(([category, categoryCourses]) => (
           <div key={category} className="mb-16">
             <h2 className="text-2xl font-bold mb-8">{category}</h2>

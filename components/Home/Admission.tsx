@@ -3,13 +3,13 @@ import { MapPin, Phone, Mail } from "lucide-react"
 
 export default function Admission() {
   return (
-    <div className=" text-black relative mx-auto max-w-7xl">
+    <div className="text-black relative mx-auto max-w-7xl">
       {/* Dotted pattern on left */}
       <div className="absolute top-4 left-4 grid grid-cols-6 gap-2 opacity-20">
         {Array(24)
           .fill(0)
           .map((_, i) => (
-            <div key={`dot-left-TK{i}`} className="w-1 h-1 rounded-full bg-black"></div>
+            <div key={`dot-left-TK${i}`} className="w-1 h-1 rounded-full bg-black"></div>
           ))}
       </div>
 
@@ -18,7 +18,7 @@ export default function Admission() {
         {Array(24)
           .fill(0)
           .map((_, i) => (
-            <div key={`dot-right-TK{i}`} className="w-1 h-1 rounded-full bg-black"></div>
+            <div key={`dot-right-${i}`} className="w-1 h-1 rounded-full bg-black"></div>
           ))}
       </div>
 
@@ -211,4 +211,3 @@ export default function Admission() {
     </div>
   )
 }
-

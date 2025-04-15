@@ -170,7 +170,7 @@ export default function CoursesSection() {
   }
 
   return (
-    <div className="py-16 bg-white">
+    <div className="py-2 bg-white">
       <div className="container mx-auto px-4 max-w-7xl">
         {Object.entries(courses).map(([category, categoryCourses]) => (
           <div key={category} className="mb-16">
@@ -195,7 +195,7 @@ export default function CoursesSection() {
                       Course Fee <span className="font-bold">{course.fee.toLocaleString()} BDT</span>
                     </div>
                     <button
-                      className="text-red  text-sm font-medium hover:text-secondary border  p-2 rounded border-secondary bg-secondary hover:bg-white"
+                      className="text-white  text-sm font-medium hover:text-secondary border  p-2 rounded border-secondary bg-secondary hover:bg-white"
                       onClick={() => handleDiscountClick(course.title)}
                     >
                       Click for discount

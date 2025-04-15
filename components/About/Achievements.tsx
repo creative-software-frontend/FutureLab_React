@@ -23,9 +23,9 @@ export default function AboutAchievements() {
   const [activeTab, setActiveTab] = useState("goal");
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8 ">
       {/* ISO Certification Section */}
-      <div className="flex flex-col md:flex-row gap-8 mb-16">
+      <div className="flex flex-col md:flex-row gap-8 mb-6">
         <div className="w-full md:w-1/3">
           <Image src={iso} alt="ISO Certification" width={300} height={400} className="w-full object-contain" />
         </div>

@@ -11,7 +11,7 @@ const stats = [
 
 const StatsSection: React.FC = () => {
   return (
-    <section className="py-10 bg-white ">
+    <section className="py-4 bg-white ">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-center">
           {stats.map((stat, index) => (

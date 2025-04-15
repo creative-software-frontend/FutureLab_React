@@ -26,7 +26,7 @@ export default function SeminarSections() {
             </p>
             <Button
               onClick={openModal}
-              className="text-lg text-red   border border-secondary rounded px-3 py-3 bg-secondary hover:bg-white"
+              className="text-lg text-white   border border-secondary rounded px-3 py-3 bg-secondary hover:bg-white"
             >
               Free Seminar Schedule
             </Button>

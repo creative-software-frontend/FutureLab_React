@@ -32,7 +32,7 @@ export default function PaymentMerchants() {
   ]
 
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-6xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Our Payment Merchant</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
