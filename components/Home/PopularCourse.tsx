@@ -64,7 +64,7 @@ export default function PopularCourses() {
             {tabs.map((tab) => (
               <button
                 key={tab}
-                className={`px-4 py-2 font-medium text-sm whitespace-nowrap TK{
+                className={`px-4 py-2 font-medium text-sm whitespace-nowrap TK${
                   activeTab === tab ? "text-red   border-b-2 border-red  " : "text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setActiveTab(tab)}

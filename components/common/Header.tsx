@@ -26,7 +26,7 @@ const Header = () => {
   }, [])
 
   return (
-    <header className={`bg-white shadow-md py-4 TK{isFixed ? "fixed top-0 left-0 right-0 z-50 animate-slideDown" : ""}`}>
+    <header className={`bg-white shadow-md py-4 TK${isFixed ? "fixed top-0 left-0 right-0 z-50 animate-slideDown" : ""}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Image src={logo || "/placeholder.svg"} alt=" Future Lab Institute Institute" className="w-70 h-35" />
@@ -42,6 +42,9 @@ const Header = () => {
             </Link>
             <Link href="/story" className="text-gray-700 hover:text-red  ">
               Success story
+            </Link>
+              <Link href="/internship" className="text-gray-700 hover:text-red  ">
+              Internship
             </Link>
             <Link href="/freelancing" className="text-gray-700 hover:text-red  ">
               Freelancing

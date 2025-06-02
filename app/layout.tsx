@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`TK{geistSans.variable} TK{geistMono.variable} antialiased`}
+        className={`TK${geistSans.variable} TK${geistMono.variable} antialiased`}
       >
         <Header/>
         {children}
