@@ -56,11 +56,20 @@ export default function Admission() {
             <MapPin className="text-gray-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div className="text-base text-black">
               <p className="font-medium">Head Office:</p>
-              <p>20/2, 2nd Floor, West Panthapath,</p>
+              <p>20/2, Lavel-2, West Panthapath,</p>
               <p>Dhanmondi, Dhaka- 1205</p>
             </div>
+            
           </div>
-
+           <div className="flex items-start gap-3 mb-4">
+            <MapPin className="text-gray-400 w-6 h-6 mt-1 flex-shrink-0" />
+            <div className="text-base text-black">
+              <p className="font-medium">Branch Office:</p>
+              <p>Manru Shopping City, Lavel-5,</p>
+              <p>Chowhatta, Sylhet- 3100</p>
+            </div>
+            
+          </div>
           <div className="flex items-start gap-3 mb-4">
             <Phone className="text-gray-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div className="text-base text-black">

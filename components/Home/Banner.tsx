@@ -47,7 +47,7 @@ export default function Banner() {
                 <div className="w-full aspect-video">
                   <iframe
                     className="w-full h-full rounded-lg shadow-lg"
-                    src="https://www.youtube.com/embed/-xLeHF_TdOY?si=t0L0g8mPi3kPOPuo&autoplay=1&mute=1"
+                  src="https://www.youtube.com/embed/w1DTbOQSKnw"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

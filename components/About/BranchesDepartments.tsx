@@ -84,15 +84,12 @@ export default function BranchesDepartments() {
   
           {/* Another Bengali Branch */}
           <div className="bg-[#FFF5F5] rounded-lg p-5">
-            <h3 className="text-[#0F172A] font-semibold mb-2">পঞ্চগড় শাখা</h3>
-            <p className="text-sm text-[#334155]">
-              নতুন বাজার কমপ্লেক্স
+            <h3 className="font-semibold mb-2"></h3>
+            <p className="text-sm text">
+              
+            
               <br />
-              ২য় তলা, সদর রোড
-              <br />
-              পঞ্চগড় সদর
-              <br />
-              পঞ্চগড়-৫০০০, বাংলাদেশ
+              
             </p>
           </div>
         </div>
