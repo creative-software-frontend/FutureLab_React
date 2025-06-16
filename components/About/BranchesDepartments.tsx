@@ -9,23 +9,93 @@ export default function BranchesDepartments() {
           <div className="bg-[#FFF5F5] rounded-lg p-5">
             <h3 className="text-[#0F172A] font-semibold mb-2">Head Office</h3>
             <p className="text-sm text-[#334155]">
-              20/2, West Panthapath, Dhaka-1205
+              20/, West Panthapath, Dhaka-1205
           
             </p>
           </div>
   
-         
+          {/* Dhanmondi */}
+          <div className="bg-[#F0FDFD] rounded-lg p-5">
+            <h3 className="text-[#0F172A] font-semibold mb-2">Dhanmondi</h3>
+            <p className="text-sm text-[#334155]">
+              Green Tower (4th Floor)
+              <br />
+              Plot #45, Road #8A
+              <br />
+              Dhanmondi, Dhaka - 1209
+              <br />
+              Bangladesh
+            </p>
+          </div>
   
           {/* Chittagong Branch */}
           <div className="bg-[#FFF5F5] rounded-lg p-5">
-            <h3 className="text-[#0F172A] font-semibold mb-2">Sylhet Branch</h3>
+            <h3 className="text-[#0F172A] font-semibold mb-2">Chittagong Branch</h3>
             <p className="text-sm text-[#334155]">
-              manru shopping city, 
+              Silver Heights Building
               <br />
-             Level-5, Chowhatta, Sylhet-3199
-             
+              75 Station Road, 3rd Floor
+              <br />
+              GEC Circle, Chittagong 4000
+              <br />
+              Bangladesh
+            </p>
           </div>
   
+          {/* Uttara Branch */}
+          <div className="bg-[#F0FDFD] rounded-lg p-5">
+            <h3 className="text-[#0F172A] font-semibold mb-2">Uttara Branch</h3>
+            <p className="text-sm text-[#334155]">
+              Northern Plaza Complex
+              <br />
+              House #22, Road #7, Sector #4
+              <br />
+              Uttara Model Town
+              <br />
+              Dhaka-1230, Bangladesh
+            </p>
+          </div>
+  
+          {/* Mirpur Branch */}
+          <div className="bg-[#FFF5F5] rounded-lg p-5">
+            <h3 className="text-[#0F172A] font-semibold mb-2">Mirpur Branch</h3>
+            <p className="text-sm text-[#334155]">
+              Millennium Tower, Suite #502
+              <br />
+              Plot #12, Block-C
+              <br />
+              Mirpur-10, Dhaka-1216
+              <br />
+              Bangladesh
+            </p>
+          </div>
+  
+          {/* Bengali Branch */}
+          <div className="bg-[#F0FDFD] rounded-lg p-5">
+            <h3 className="text-[#0F172A] font-semibold mb-2">কমলা বাগ</h3>
+            <p className="text-sm text-[#334155]">
+              ৪৫ কমলা সেন্টার, ৩য় তলা
+              <br />
+              কমলা বাগ, ঢাকা-১২১৭
+              <br />
+              বাংলাদেশ
+            </p>
+          </div>
+  
+          {/* Another Bengali Branch */}
+          <div className="bg-[#FFF5F5] rounded-lg p-5">
+            <h3 className="text-[#0F172A] font-semibold mb-2">পঞ্চগড় শাখা</h3>
+            <p className="text-sm text-[#334155]">
+              নতুন বাজার কমপ্লেক্স
+              <br />
+              ২য় তলা, সদর রোড
+              <br />
+              পঞ্চগড় সদর
+              <br />
+              পঞ্চগড়-৫০০০, বাংলাদেশ
+            </p>
+          </div>
+        </div>
   
         {/* Training Departments Section */}
         <h2 className="text-2xl font-bold mb-6">Training Departments</h2>
