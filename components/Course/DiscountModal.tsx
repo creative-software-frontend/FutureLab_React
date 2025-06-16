@@ -131,8 +131,7 @@ export function DiscountModal({ isOpen, onClose, courseName }: DiscountModalProp
 
             <div className="mt-4">
               <p className="text-gray-700">
-                <span className="font-semibold">If Necessary:</span> 01624888444, 01624666000, 01777308777, 01966177177,
-                01990779900, 01625555444
+                <span className="font-semibold">If Necessary:</span>+88 09649 866 933 , 01978 866 933
               </p>
             </div>
           </div>
