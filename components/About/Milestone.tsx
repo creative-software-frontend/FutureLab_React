@@ -33,7 +33,7 @@ export default function MilestoneSection() {
         <h2 className="text-3xl font-bold text-gray-900">Our Milestone</h2>
         <p className="text-gray-600 max-w-3xl">
            Future Lab Institute Institute is the harbor of thousands of successful freelancers in Bangladesh. We have trained and
-          produced more than 70,000 Freelancers in the past 15 years. We nurture the young talent by sharing knowledge
+          produced more than 5,000 Freelancers in the past 15 years. We nurture the young talent by sharing knowledge
           and help students find the desired jobs to become financially solvent.
         </p>
       </div>

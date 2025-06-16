@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo */}
           <div>
-            <Image src={logo} alt="Creativeb  Software
+            <Image src={logo} alt="Future Lab Institute
             
             
             " width={150} height={40} />
@@ -22,7 +22,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="text-sm text-gray-600 text-center">
-            Copyright © 2025
+             © 2025
             
              Future Lab Institute.
             
@@ -32,16 +32,16 @@ export default function Footer() {
               Sitemap
             </Link>
             <br />
-            <span className="text-gray-500">e-TIN: 570007703094, TL: TRAD/DSCCC/22B155/2019</span>
+            <span className="text-gray-500">e-TIN: 570003094, TL: TRAD/DSCCC/22B005/2019</span>
           </div>
 
           {/* Social Links */}
           <div className="flex gap-4">
-            <Link href="#" className="text-gray-600 hover:text-gray-900">
+            <Link href="https://www.facebook.com/futurelabinstitutebd" className="text-gray-600 hover:text-gray-900">
               <Facebook className="w-5 h-5" />
               <span className="sr-only">Facebook</span>
             </Link>
-            <Link href="#" className="text-gray-600 hover:text-gray-900">
+            <Link href="https://www.linkedin.com/company/future-lab-institute" className="text-gray-600 hover:text-gray-900">
               <Linkedin className="w-5 h-5" />
               <span className="sr-only">LinkedIn</span>
             </Link>

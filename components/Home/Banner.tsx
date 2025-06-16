@@ -18,7 +18,7 @@ export default function Banner() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Become an IT Pro &<br />
+              Become an IT &<br />
               Rule the <span className="text-red  ">Digital World</span>
             </h1>
 
@@ -26,7 +26,7 @@ export default function Banner() {
               With a vision to turn manpower into assets, Future Lab Institute
               Institute is ready to enhance your learning experience with
               skilled mentors and an updated curriculum. Pick your desired
-              course from more than 45 trendy options.
+              course from more than 20 trendy options.
             </p>
 
             <div className="flex flex-wrap gap-4">

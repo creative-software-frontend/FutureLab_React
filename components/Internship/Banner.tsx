@@ -15,13 +15,13 @@ export default function Banner() {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Diploma Internship <br />
-              Opportunities<span className="text-red  ">Digital World</span>
+              <span className="text-red  ">Opportunities</span>
             </h1>
 
             <p className="text-gray-600 text-lg max-w-2xl">
-              With a vision to turn manpower into assets, GBC IT is ready to enhance your learning experience with
+              With a vision to turn manpower into assets,Future Lab Institute is ready to enhance your learning experience with
               skilled mentors and an updated curriculum. Pick your desired
-              course from more than 45 trendy options.
+              course from more than 20 trendy options.
             </p>
 
             <div className="flex flex-wrap gap-4">

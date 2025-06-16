@@ -56,8 +56,7 @@ export default function Admission() {
             <MapPin className="text-gray-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div className="text-base text-black">
               <p className="font-medium">Head Office:</p>
-              <p>Momtaz Plaza (4th Floor)</p>
-              <p>House # 07, Road # 04</p>
+              <p>20/2, 2nd Floor, West Panthapath,</p>
               <p>Dhanmondi, Dhaka- 1205</p>
             </div>
           </div>
@@ -65,19 +64,16 @@ export default function Admission() {
           <div className="flex items-start gap-3 mb-4">
             <Phone className="text-gray-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div className="text-base text-black">
-              <p>+880 1777308777</p>
-              <p>+880 1624866000</p>
-              <p>+880 1674888444</p>
-              <p>+880 1966177777</p>
-              <p>+880 1625555444</p>
-              <p>+880 1990779900</p>
+              <p>+880 9669 866 933</p>
+              <p>+880 1978 866 933</p>
+             
             </div>
           </div>
 
           <div className="flex items-start gap-3">
             <Mail className="text-gray-400 w-6 h-6 mt-1 flex-shrink-0" />
             <div className="text-base text-black">
-              <p>info@creativeitinstitute.com</p>
+              <p>info@futurelabitinstitute.com</p>
             </div>
           </div>
         </div>

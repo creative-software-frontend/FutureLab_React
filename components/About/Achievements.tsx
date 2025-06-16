@@ -30,9 +30,9 @@ export default function AboutAchievements() {
           <Image src={iso} alt="ISO Certification" width={300} height={400} className="w-full object-contain" />
         </div>
         <div className="w-full md:w-2/3">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">One of the ISO Certified IT Institutes in Bangladesh</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">One of the Best IT Institutes in Bangladesh</h2>
           <p className="text-gray-600 leading-relaxed">
-            In 2015 we received the ISO certification for providing a quality training program which recognizes our
+            We are providing a quality training program which recognizes our
             position in the IT sector and ensures the quality of our training considering infrastructure, teaching
             quality and other factors. This certification proves the standard of our service and courses.
           </p>
