@@ -16,6 +16,9 @@ import civil3 from "../../assests/story/civil (3).jpg"
 import architecture1 from "../../assests/story/architecture (1).jpg"
 import architecture2 from "../../assests/story/architecture (2).jpg"
 import architecture3 from "../../assests/story/architecture (3).jpg"
+import electronics1 from "../../assests/story/Electronics (1).jpg"
+import electronics2 from "../../assests/story/Electronics (2).jpg"
+import electronics3 from "../../assests/story/Electronics (3).jpg"
 
 type Course = {
   title: string;
@@ -132,6 +135,32 @@ const tabData: { [key: number]: Course[] } = {
       image: civil3,
     },
   ],
+  5:[
+    {
+      title: "Structural Analysis",
+      category: "Electronics Department",
+      reviews: 8800,
+      students: 12000,
+      fee: "47,000 BDT",
+      image: electronics1,
+    },
+    {
+      title: "Construction Management",
+      category: "Electronics Department",
+      reviews: 9200,
+      students: 13000,
+      fee: "51,000 BDT",
+      image: electronics2,
+    },
+    {
+      title: "Surveying & Leveling",
+      category: "Electronics Department",
+      reviews: 8600,
+      students: 11500,
+      fee: "46,000 BDT",
+      image: electronics3,
+    },
+  ],
 };
 
 const CourseTab: React.FC = () => {
@@ -142,7 +171,7 @@ const CourseTab: React.FC = () => {
     <section className="px-4 py-10">
       {/* Tabs */}
       <div className="flex flex-wrap justify-center gap-4 mb-10">
-        {["electrical", "computer", "architecture", "civil"].map((name, i) => (
+        {["electrical", "computer", "architecture", "civil","electronics" ].map((name, i) => (
           <button
             key={i}
             className={`px-6 py-2 rounded-md text-sm font-medium border ${

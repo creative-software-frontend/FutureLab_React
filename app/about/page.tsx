@@ -2,7 +2,7 @@
 
 import AboutSection from '@/components/About/AboutBanner';
 import AboutAchievements from '@/components/About/Achievements';
-import BranchesDepartments from '@/components/About/BranchesDepartments';
+// import BranchesDepartments from '@/components/About/BranchesDepartments';
 import MilestoneSection from '@/components/About/Milestone';
 import React from 'react';
 
@@ -12,7 +12,7 @@ const Page: React.FC = () => {
     <AboutSection/>
     <AboutAchievements/>
     <MilestoneSection/>
-    <BranchesDepartments/>
+    {/* <BranchesDepartments/> */}
     </>
   );
 };

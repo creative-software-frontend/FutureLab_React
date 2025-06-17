@@ -14,7 +14,7 @@ const WhyChooseSection: React.FC = () => {
          
           <ul className="space-y-4 text-gray-700 text-lg list-none list-inside text-justify">
             <li>
-              <strong>Experienced Instructors:</strong> Learn from industry experts with extensive experience.
+              <strong>Experienced Instructors:</strong> Our instructors bring years of real-world experience to help you learn and grow.
             </li>
             <li>
               <strong>Hands-On Training:</strong> Practical learning through projects and real-world scenarios.
